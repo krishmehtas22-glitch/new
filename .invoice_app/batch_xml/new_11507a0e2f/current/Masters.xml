@@ -1,0 +1,560 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ENVELOPE>
+  <HEADER>
+    <TALLYREQUEST>Import Data</TALLYREQUEST>
+  </HEADER>
+  <BODY>
+    <IMPORTDATA>
+      <REQUESTDESC>
+        <REPORTNAME>All Masters</REPORTNAME>
+        <STATICVARIABLES />
+      </REQUESTDESC>
+      <REQUESTDATA>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Sales" ACTION="Create">
+            <NAME>Sales</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Sales</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sales Accounts</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <AFFECTSSTOCK>Yes</AFFECTSSTOCK>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Invoice differences - review" ACTION="Create">
+            <NAME>Invoice differences - review</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Invoice differences - review</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Indirect Expenses</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Kalpataru Interiors LLP" ACTION="Create">
+            <NAME>Kalpataru Interiors LLP</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Kalpataru Interiors LLP</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sundry Debtors</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <ISBILLWISEON>Yes</ISBILLWISEON>
+            <PARTYGSTIN>27AAGFK5678L1Z2</PARTYGSTIN>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="CGST" ACTION="Create">
+            <NAME>CGST</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>CGST</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Duties &amp; Taxes</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <TAXTYPE>GST</TAXTYPE>
+            <GSTDUTYHEAD>Central Tax</GSTDUTYHEAD>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="SGST" ACTION="Create">
+            <NAME>SGST</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>SGST</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Duties &amp; Taxes</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <TAXTYPE>GST</TAXTYPE>
+            <GSTDUTYHEAD>State Tax</GSTDUTYHEAD>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Round Off" ACTION="Create">
+            <NAME>Round Off</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Round Off</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Indirect Expenses</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Navsari Retail Mart" ACTION="Create">
+            <NAME>Navsari Retail Mart</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Navsari Retail Mart</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sundry Debtors</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <ISBILLWISEON>Yes</ISBILLWISEON>
+            <PARTYGSTIN>24AAHFN9087C1Z9</PARTYGSTIN>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="IGST" ACTION="Create">
+            <NAME>IGST</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>IGST</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Duties &amp; Taxes</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <TAXTYPE>GST</TAXTYPE>
+            <GSTDUTYHEAD>Integrated Tax</GSTDUTYHEAD>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Raheja Builders" ACTION="Create">
+            <NAME>Raheja Builders</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Raheja Builders</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sundry Debtors</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <ISBILLWISEON>Yes</ISBILLWISEON>
+            <PARTYGSTIN>27AAACR3344D1Z7</PARTYGSTIN>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Walk-in Customer (Cash)" ACTION="Create">
+            <NAME>Walk-in Customer (Cash)</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Walk-in Customer (Cash)</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sundry Debtors</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <ISBILLWISEON>Yes</ISBILLWISEON>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <STOCKITEM NAME="LED Panel Light 40W" ACTION="Create">
+            <NAME>LED Panel Light 40W</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>LED Panel Light 40W</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <BASEUNITS>Nos</BASEUNITS>
+            <GSTAPPLICABLE>Applicable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20261005</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <HSNCODE>94054090</HSNCODE>
+              <TAXABILITY>Taxable</TAXABILITY>
+              <ISREVERSECHARGEAPPLICABLE>No</ISREVERSECHARGEAPPLICABLE>
+              <ISNONGSTGOODS>No</ISNONGSTGOODS>
+              <STATEWISEDETAILS.LIST>
+                <STATENAME>Any</STATENAME>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>9</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>9</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0</GSTRATE>
+                </RATEDETAILS.LIST>
+              </STATEWISEDETAILS.LIST>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <STOCKITEM NAME="Modular Switch Plate 8M" ACTION="Create">
+            <NAME>Modular Switch Plate 8M</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Modular Switch Plate 8M</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <BASEUNITS>Nos</BASEUNITS>
+            <GSTAPPLICABLE>Applicable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20261005</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <HSNCODE>85365090</HSNCODE>
+              <TAXABILITY>Taxable</TAXABILITY>
+              <ISREVERSECHARGEAPPLICABLE>No</ISREVERSECHARGEAPPLICABLE>
+              <ISNONGSTGOODS>No</ISNONGSTGOODS>
+              <STATEWISEDETAILS.LIST>
+                <STATENAME>Any</STATENAME>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>9</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>9</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0</GSTRATE>
+                </RATEDETAILS.LIST>
+              </STATEWISEDETAILS.LIST>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <STOCKITEM NAME="Copper Wire 1.5 sq mm (90m coil)" ACTION="Create">
+            <NAME>Copper Wire 1.5 sq mm (90m coil)</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Copper Wire 1.5 sq mm (90m coil)</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <BASEUNITS>COIL</BASEUNITS>
+            <GSTAPPLICABLE>Applicable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20261005</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <HSNCODE>85444999</HSNCODE>
+              <TAXABILITY>Taxable</TAXABILITY>
+              <ISREVERSECHARGEAPPLICABLE>No</ISREVERSECHARGEAPPLICABLE>
+              <ISNONGSTGOODS>No</ISNONGSTGOODS>
+              <STATEWISEDETAILS.LIST>
+                <STATENAME>Any</STATENAME>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>9</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>9</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0</GSTRATE>
+                </RATEDETAILS.LIST>
+              </STATEWISEDETAILS.LIST>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <STOCKITEM NAME="Alphonso Mango Pulp 850g tin" ACTION="Create">
+            <NAME>Alphonso Mango Pulp 850g tin</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Alphonso Mango Pulp 850g tin</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <BASEUNITS>TIN</BASEUNITS>
+            <GSTAPPLICABLE>Applicable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20261012</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <HSNCODE>20089910</HSNCODE>
+              <TAXABILITY>Taxable</TAXABILITY>
+              <ISREVERSECHARGEAPPLICABLE>No</ISREVERSECHARGEAPPLICABLE>
+              <ISNONGSTGOODS>No</ISNONGSTGOODS>
+              <STATEWISEDETAILS.LIST>
+                <STATENAME>Any</STATENAME>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>12</GSTRATE>
+                </RATEDETAILS.LIST>
+              </STATEWISEDETAILS.LIST>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <STOCKITEM NAME="Cashew Kernels W320 (1kg pack)" ACTION="Create">
+            <NAME>Cashew Kernels W320 (1kg pack)</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Cashew Kernels W320 (1kg pack)</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <BASEUNITS>KG</BASEUNITS>
+            <GSTAPPLICABLE>Applicable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20261012</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <HSNCODE>08013220</HSNCODE>
+              <TAXABILITY>Taxable</TAXABILITY>
+              <ISREVERSECHARGEAPPLICABLE>No</ISREVERSECHARGEAPPLICABLE>
+              <ISNONGSTGOODS>No</ISNONGSTGOODS>
+              <STATEWISEDETAILS.LIST>
+                <STATENAME>Any</STATENAME>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>12</GSTRATE>
+                </RATEDETAILS.LIST>
+              </STATEWISEDETAILS.LIST>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <STOCKITEM NAME="Ready-to-eat Millet Mix 500g" ACTION="Create">
+            <NAME>Ready-to-eat Millet Mix 500g</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Ready-to-eat Millet Mix 500g</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <BASEUNITS>PKT</BASEUNITS>
+            <GSTAPPLICABLE>Applicable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20261012</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <HSNCODE>19049000</HSNCODE>
+              <TAXABILITY>Taxable</TAXABILITY>
+              <ISREVERSECHARGEAPPLICABLE>No</ISREVERSECHARGEAPPLICABLE>
+              <ISNONGSTGOODS>No</ISNONGSTGOODS>
+              <STATEWISEDETAILS.LIST>
+                <STATENAME>Any</STATENAME>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>18</GSTRATE>
+                </RATEDETAILS.LIST>
+              </STATEWISEDETAILS.LIST>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <STOCKITEM NAME="Basmati Rice (Loose)" ACTION="Create">
+            <NAME>Basmati Rice (Loose)</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Basmati Rice (Loose)</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <BASEUNITS>KG</BASEUNITS>
+            <GSTAPPLICABLE>Applicable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20261022</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <HSNCODE>10063020</HSNCODE>
+              <TAXABILITY>Taxable</TAXABILITY>
+              <ISREVERSECHARGEAPPLICABLE>No</ISREVERSECHARGEAPPLICABLE>
+              <ISNONGSTGOODS>No</ISNONGSTGOODS>
+              <STATEWISEDETAILS.LIST>
+                <STATENAME>Any</STATENAME>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.5</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.5</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0</GSTRATE>
+                </RATEDETAILS.LIST>
+              </STATEWISEDETAILS.LIST>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <STOCKITEM NAME="Sugar" ACTION="Create">
+            <NAME>Sugar</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Sugar</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <BASEUNITS>KG</BASEUNITS>
+            <GSTAPPLICABLE>Applicable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20261022</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <HSNCODE>17019990</HSNCODE>
+              <TAXABILITY>Taxable</TAXABILITY>
+              <ISREVERSECHARGEAPPLICABLE>No</ISREVERSECHARGEAPPLICABLE>
+              <ISNONGSTGOODS>No</ISNONGSTGOODS>
+              <STATEWISEDETAILS.LIST>
+                <STATENAME>Any</STATENAME>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.5</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.5</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0</GSTRATE>
+                </RATEDETAILS.LIST>
+              </STATEWISEDETAILS.LIST>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <STOCKITEM NAME="Refined Sunflower Oil 1L" ACTION="Create">
+            <NAME>Refined Sunflower Oil 1L</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Refined Sunflower Oil 1L</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <BASEUNITS>LTR</BASEUNITS>
+            <GSTAPPLICABLE>Applicable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20261022</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <HSNCODE>15121910</HSNCODE>
+              <TAXABILITY>Taxable</TAXABILITY>
+              <ISREVERSECHARGEAPPLICABLE>No</ISREVERSECHARGEAPPLICABLE>
+              <ISNONGSTGOODS>No</ISNONGSTGOODS>
+              <STATEWISEDETAILS.LIST>
+                <STATENAME>Any</STATENAME>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.5</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.5</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0</GSTRATE>
+                </RATEDETAILS.LIST>
+              </STATEWISEDETAILS.LIST>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <STOCKITEM NAME="Toor Dal (Loose)" ACTION="Create">
+            <NAME>Toor Dal (Loose)</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Toor Dal (Loose)</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <BASEUNITS>KG</BASEUNITS>
+            <GSTAPPLICABLE>Applicable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20261022</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <HSNCODE>07136000</HSNCODE>
+              <TAXABILITY>Taxable</TAXABILITY>
+              <ISREVERSECHARGEAPPLICABLE>No</ISREVERSECHARGEAPPLICABLE>
+              <ISNONGSTGOODS>No</ISNONGSTGOODS>
+              <STATEWISEDETAILS.LIST>
+                <STATENAME>Any</STATENAME>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0</GSTRATE>
+                </RATEDETAILS.LIST>
+              </STATEWISEDETAILS.LIST>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+        </TALLYMESSAGE>
+      </REQUESTDATA>
+    </IMPORTDATA>
+  </BODY>
+</ENVELOPE>

@@ -1,0 +1,27 @@
+{
+  "source_sha256": "4dc8fab5ff031101f1045cc3fcd06b18a67eb20e6d789bcc7fff807bc678c3e1",
+  "items": {
+    "0": {
+      "signature": "4f23ab735826e678cff6ca3b58337b0514ea3a26ceaa572f054851078f6e02b7",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed unit",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed unit"
+      }
+    },
+    "1": {
+      "signature": "b167a9f3e45cd053e13f80f411985bcc8ee181c16219e007af93c6ef3a761d04",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed unit",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed unit"
+      }
+    }
+  }
+}

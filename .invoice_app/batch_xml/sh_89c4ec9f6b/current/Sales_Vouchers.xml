@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ENVELOPE>
+  <HEADER>
+    <TALLYREQUEST>Import Data</TALLYREQUEST>
+  </HEADER>
+  <BODY>
+    <IMPORTDATA>
+      <REQUESTDESC>
+        <REPORTNAME>Vouchers</REPORTNAME>
+        <STATICVARIABLES />
+      </REQUESTDESC>
+      <REQUESTDATA>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER REMOTEID="5e20b4e3-259a-5668-a20b-9e8f7265ffec" VCHTYPE="Sales" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20261018</DATE>
+            <EFFECTIVEDATE>20261018</EFFECTIVEDATE>
+            <GUID>5e20b4e3-259a-5668-a20b-9e8f7265ffec</GUID>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>BS-TEST-502</VOUCHERNUMBER>
+            <REFERENCE>BS-TEST-502</REFERENCE>
+            <PARTYLEDGERNAME>SOUTHERN POWER SYSTEMS PRIVATE LIMITED</PARTYLEDGERNAME>
+            <PARTYNAME>SOUTHERN POWER SYSTEMS PRIVATE LIMITED</PARTYNAME>
+            <BASICBUYERNAME>SOUTHERN POWER SYSTEMS PRIVATE LIMITED</BASICBUYERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <ISINVOICE>No</ISINVOICE>
+            <ISOPTIONAL>No</ISOPTIONAL>
+            <ISCANCELLED>No</ISCANCELLED>
+            <PARTYGSTIN>29AAACS4628K1Z1</PARTYGSTIN>
+            <PLACEOFSUPPLY>Karnataka</PLACEOFSUPPLY>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>SOUTHERN POWER SYSTEMS PRIVATE LIMITED</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-22249992.86</AMOUNT>
+              <BILLALLOCATIONS.LIST>
+                <NAME>BS-TEST-502</NAME>
+                <BILLTYPE>New Ref</BILLTYPE>
+                <AMOUNT>-22249992.86</AMOUNT>
+              </BILLALLOCATIONS.LIST>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Sales</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>19117075.68</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>3132917.42</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Round Off</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-0.24</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <NARRATION>TEST DATA; Review in Tally; seller DECCAN | INDUSTRIAL DISTRIBUTION; seller GSTIN 27AAACD1234F1Z7; source F:\Downloads\new app\sh\Sales Invoices (PDF)\BS-TEST-502.pdf; cgst missing/invalid; no numeric posting available (not an extracted zero); sgst missing/invalid; no numeric posting available (not an extracted zero); cess missing/invalid; no numeric posting available (not an extracted zero); Accounting voucher: item inventory not posted; all extracted items retained in manifest</NARRATION>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER REMOTEID="dbb82fa1-0b86-546b-b3da-50de7a942d66" VCHTYPE="Sales" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20261019</DATE>
+            <EFFECTIVEDATE>20261019</EFFECTIVEDATE>
+            <GUID>dbb82fa1-0b86-546b-b3da-50de7a942d66</GUID>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>BS-TEST-503</VOUCHERNUMBER>
+            <REFERENCE>BS-TEST-503</REFERENCE>
+            <PARTYLEDGERNAME>Buyer unresolved - 1fe1eccfbc</PARTYLEDGERNAME>
+            <PARTYNAME>Buyer unresolved - 1fe1eccfbc</PARTYNAME>
+            <BASICBUYERNAME>Buyer unresolved - 1fe1eccfbc</BASICBUYERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <ISINVOICE>No</ISINVOICE>
+            <ISOPTIONAL>No</ISOPTIONAL>
+            <ISCANCELLED>No</ISCANCELLED>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Buyer unresolved - 1fe1eccfbc</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-21038210.63</AMOUNT>
+              <BILLALLOCATIONS.LIST>
+                <NAME>BS-TEST-503</NAME>
+                <BILLTYPE>New Ref</BILLTYPE>
+                <AMOUNT>-21038210.63</AMOUNT>
+              </BILLALLOCATIONS.LIST>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Sales</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>17860247.38</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Round Off</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>0.46</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Invoice differences - review</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>3177962.79</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <NARRATION>TEST DATA; Review in Tally; seller Seller unresolved - sh; seller GSTIN ; source F:\Downloads\new app\sh\Sales Invoices (PDF)\BS-TEST-503.pdf; Item GST split needs seller state and place of supply review; AI-first extraction was not completed for this PDF; Python/saved data retained for review. Status: local fallback; Invoice date recovered from verified source PDF/local extraction, not a due date; Seller unresolved or candidate only; seller not invented; Seller GSTIN missing/invalid; retained for Tally review; cgst missing/invalid; no numeric posting available (not an extracted zero); sgst missing/invalid; no numeric posting available (not an extracted zero); igst missing/invalid; no numeric posting available (not an extracted zero); cess missing/invalid; no numeric posting available (not an extracted zero); Taxable amount derived from available amounts; see retained extraction; Accounting voucher: item inventory not posted; all extracted items retained in manifest; Unreconciled difference 3177962.79 posted to Invoice differences - review; printed amounts retained</NARRATION>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER REMOTEID="c35c6aea-19e6-5b70-82a6-084b35800e67" VCHTYPE="Sales" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20261020</DATE>
+            <EFFECTIVEDATE>20261020</EFFECTIVEDATE>
+            <GUID>c35c6aea-19e6-5b70-82a6-084b35800e67</GUID>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>BS-TEST-504</VOUCHERNUMBER>
+            <REFERENCE>BS-TEST-504</REFERENCE>
+            <PARTYLEDGERNAME>Buyer unresolved - 46a7312f2f</PARTYLEDGERNAME>
+            <PARTYNAME>Buyer unresolved - 46a7312f2f</PARTYNAME>
+            <BASICBUYERNAME>Buyer unresolved - 46a7312f2f</BASICBUYERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <ISINVOICE>No</ISINVOICE>
+            <ISOPTIONAL>No</ISOPTIONAL>
+            <ISCANCELLED>No</ISCANCELLED>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Buyer unresolved - 46a7312f2f</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-26917398.73</AMOUNT>
+              <BILLALLOCATIONS.LIST>
+                <NAME>BS-TEST-504</NAME>
+                <BILLTYPE>New Ref</BILLTYPE>
+                <AMOUNT>-26917398.73</AMOUNT>
+              </BILLALLOCATIONS.LIST>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Sales</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>26917399.12</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Round Off</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-0.39</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <NARRATION>TEST DATA; Review in Tally; seller Seller unresolved - sh; seller GSTIN ; source F:\Downloads\new app\sh\Sales Invoices (PDF)\BS-TEST-504.pdf; AI-first extraction was not completed for this PDF; Python/saved data retained for review. Status: local fallback; Invoice date recovered from verified source PDF/local extraction, not a due date; Seller unresolved or candidate only; seller not invented; Seller GSTIN missing/invalid; retained for Tally review; cgst missing/invalid; no numeric posting available (not an extracted zero); sgst missing/invalid; no numeric posting available (not an extracted zero); igst missing/invalid; no numeric posting available (not an extracted zero); cess missing/invalid; no numeric posting available (not an extracted zero); Taxable amount derived from available amounts; see retained extraction; Accounting voucher: item inventory not posted; all extracted items retained in manifest</NARRATION>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER REMOTEID="7bb1ee5c-7e10-5eeb-9747-fa58c9089cae" VCHTYPE="Sales" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20261021</DATE>
+            <EFFECTIVEDATE>20261021</EFFECTIVEDATE>
+            <GUID>7bb1ee5c-7e10-5eeb-9747-fa58c9089cae</GUID>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>BS-TEST-505</VOUCHERNUMBER>
+            <REFERENCE>BS-TEST-505</REFERENCE>
+            <PARTYLEDGERNAME>Buyer unresolved - 19ffbee69a</PARTYLEDGERNAME>
+            <PARTYNAME>Buyer unresolved - 19ffbee69a</PARTYNAME>
+            <BASICBUYERNAME>Buyer unresolved - 19ffbee69a</BASICBUYERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <ISINVOICE>No</ISINVOICE>
+            <ISOPTIONAL>No</ISOPTIONAL>
+            <ISCANCELLED>No</ISCANCELLED>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Buyer unresolved - 19ffbee69a</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-23751892.03</AMOUNT>
+              <BILLALLOCATIONS.LIST>
+                <NAME>BS-TEST-505</NAME>
+                <BILLTYPE>New Ref</BILLTYPE>
+                <AMOUNT>-23751892.03</AMOUNT>
+              </BILLALLOCATIONS.LIST>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Sales</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>23751891.85</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Round Off</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>0.18</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <NARRATION>TEST DATA; Review in Tally; seller Seller unresolved - sh; seller GSTIN ; source F:\Downloads\new app\sh\Sales Invoices (PDF)\BS-TEST-505.pdf; AI-first extraction was not completed for this PDF; Python/saved data retained for review. Status: local fallback; Invoice date recovered from verified source PDF/local extraction, not a due date; Seller unresolved or candidate only; seller not invented; Seller GSTIN missing/invalid; retained for Tally review; cgst missing/invalid; no numeric posting available (not an extracted zero); sgst missing/invalid; no numeric posting available (not an extracted zero); igst missing/invalid; no numeric posting available (not an extracted zero); cess missing/invalid; no numeric posting available (not an extracted zero); Taxable amount derived from available amounts; see retained extraction; Accounting voucher: item inventory not posted; all extracted items retained in manifest</NARRATION>
+          </VOUCHER>
+        </TALLYMESSAGE>
+      </REQUESTDATA>
+    </IMPORTDATA>
+  </BODY>
+</ENVELOPE>

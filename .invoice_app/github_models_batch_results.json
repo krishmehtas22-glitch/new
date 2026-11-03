@@ -1,0 +1,47 @@
+{
+  "provider": "GitHub Models",
+  "results": [
+    {
+      "client": "EE",
+      "path": "F:\\Downloads\\new app\\EE\\Sales Invoices (PDF)\\TEST-26-27-270_EXEMPT_Layout-4.pdf",
+      "digest": "31d73101d41c8e6d4906bd1122673ca654155559d41e183ce3d1973eaf9fb69d",
+      "status": "failed",
+      "error": "Model openai/gpt-4o — GitHub Models returned non-JSON data after HTTP decoding; no token or response body was printed"
+    },
+    {
+      "client": "EE",
+      "path": "F:\\Downloads\\new app\\EE\\Sales Invoices (PDF)\\TEST-26-27-271_INTER_Layout-5.pdf",
+      "digest": "3918ada24da5c7e81865ecae528364136809cba0fa64cbec27f2a512f0c406da",
+      "status": "failed",
+      "error": "Model openai/gpt-4o — GitHub Models returned non-JSON data after HTTP decoding; no token or response body was printed"
+    },
+    {
+      "client": "EE",
+      "path": "F:\\Downloads\\new app\\EE\\Sales Invoices (PDF)\\TEST-26-27-272_INTRA_Layout-1.pdf",
+      "digest": "9c520042fa9fd0aa889950a6da75e2666acf6cf2cdd241c18396cd22de56f268",
+      "status": "failed",
+      "error": "Model openai/gpt-4o — GitHub Models returned non-JSON data after HTTP decoding; no token or response body was printed"
+    },
+    {
+      "client": "EE",
+      "path": "F:\\Downloads\\new app\\EE\\Sales Invoices (PDF)\\TEST-26-27-273_EXPORT_Layout-2.pdf",
+      "digest": "689af3d6c34e7449851c35e0623f837fc64eb06c46d9db0a72849d5345d393f1",
+      "status": "failed",
+      "error": "Model openai/gpt-4o — GitHub Models returned non-JSON data after HTTP decoding; no token or response body was printed"
+    },
+    {
+      "client": "EE",
+      "path": "F:\\Downloads\\new app\\EE\\Sales Invoices (PDF)\\TEST-26-27-274_INTER_Layout-3.pdf",
+      "digest": "640eb408c5813c0daae479d2ffdbe252db4daa9487a926a22c30ebc79c2c2d43",
+      "status": "failed",
+      "error": "Model openai/gpt-4o — GitHub Models returned non-JSON data after HTTP decoding; no token or response body was printed"
+    },
+    {
+      "client": "EE",
+      "path": "F:\\Downloads\\new app\\EE\\Sales Invoices (PDF)\\TEST-26-27-275_EXEMPT_Layout-4.pdf",
+      "digest": "b625089dc8d65ebdaee35ee00ddb42382013cdffb7956518a2f4b1c4861caa63",
+      "status": "not attempted",
+      "error": "Shared new-AI-attempt limit reached; local XML retained"
+    }
+  ]
+}

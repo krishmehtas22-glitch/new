@@ -1,0 +1,533 @@
+{
+  "source_sha256": "53e682d92e28b525f982830d9cf83ea7bd014db6093b1725ca220d979eff6a33",
+  "items": {
+    "0": {
+      "signature": "fcd1170ae961e8a561a10e5627f0751da230a88f7fbae6da2d67a1c5e9d1f324",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "1": {
+      "signature": "0672764ea1c2e3e56b7919eaec070f2f29190bf279a2ebd61c1ddea2c922bf3e",
+      "unit_data": {
+        "unit": "BOX",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "2": {
+      "signature": "b1e8fb779427aeb0fc5adef3400f94cc61459fb2ab9288b9f42dfe7a99d57159",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "3": {
+      "signature": "c8f3359dcfae7835fee6a8ee6dec6b6cd484f961fbcc7a0b8b2473789f65db88",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "4": {
+      "signature": "ddc8a0015228279fde630cb6c1b90320c643ecbb14da480b38f41c73deb5b7c6",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "5": {
+      "signature": "f969b1bda4df3cef13421262d2a5e52398014c179692b6440aaf345ce5180b14",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "6": {
+      "signature": "aae811aab472c396feb7f95a69595f202df14f81e89efb65842e4905c714a534",
+      "unit_data": {
+        "unit": "Packs",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "7": {
+      "signature": "28b3d7084ccaff0857070699ddadeb82a14d46436f82d74d9d63bdd870029057",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "8": {
+      "signature": "7ce81d6c8cb7fd3fb74f4d4eb67b845f167e59ef3f26f927ea59ac38004395a1",
+      "unit_data": {
+        "unit": "PRS",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "9": {
+      "signature": "18aea282f1d555821dbf65988a8064a6f9f5dbf631954659d1123f29722e4511",
+      "unit_data": {
+        "unit": "Packs",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "10": {
+      "signature": "067e168fadc2a1e32807464b18daf99501564e5465ba4b50a3400c0a11969561",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "11": {
+      "signature": "85fb62b9bb4fe8f2c6338bf99a309206a4823258f965046541dd10a4647ab15b",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "12": {
+      "signature": "2801f8dface1df75c27e522346f4ad74eeca42fa0fadbf48d9eab1547bc7f542",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "13": {
+      "signature": "5aabb3092a641d3784a5612db211f20e9a38957984f9cd222b96e8788c3e90ec",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "14": {
+      "signature": "888583bada456c41535d45f68bd80e37cc9d8a69bf6057a6127a61219e9319ca",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "15": {
+      "signature": "37ec1f8244f3eb3a05910ce5f480de358a157d68990d64d5bfaa208ae6f7a182",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "16": {
+      "signature": "d152201430256529bc5554d1bf6945643ffea8ffdd807b65d2ce2051442e59b9",
+      "unit_data": {
+        "unit": "ROLL",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "17": {
+      "signature": "8096f5790c968f3b6d59d38ea19e3696aefedbea6af20731fbc06975fdeab123",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "18": {
+      "signature": "471661e8be79272ae05e9286c928fa08a76a3f55b9b46eda9adb494532f19e88",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "19": {
+      "signature": "70c6b5495e63e28f322f523ef37d518b9c02dfedd70dae6ae4e55be0ce56e2b3",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "20": {
+      "signature": "2dd4603341250a470580b7b3eec816b8c442af32e5dae9ccbf44654f7c969016",
+      "unit_data": {
+        "unit": "SET",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "21": {
+      "signature": "417d9a0dfc42cd32f5561ad0ed68449dc2fa6fcff0266d688b05766c54ec5ead",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "22": {
+      "signature": "bb7a03fed95e13eadcc3d9e603adaaaf9e5248931b958181da373c9985cb68ca",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "23": {
+      "signature": "b42db603d2d71f382a2c30bc1521c7d33fd4d5bccba337acb107df6e7343f7cf",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "24": {
+      "signature": "78c11601479e6f2fcfbdb0fcd16c60cd163bc79ca416845bc06b48036924b662",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "25": {
+      "signature": "9d47b3bf5a76f35bacb9bd72c484a9e7f0c8e554ce9104253b541c96cd803249",
+      "unit_data": {
+        "unit": "BOX",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "26": {
+      "signature": "800a4ff838e591913400b546b58f21df11810c53f79326be82f9a5df1a397476",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "27": {
+      "signature": "5e2a154a1b2c4412a8f10232ed3e0b5a3169256c545875dd4266e690b809ed46",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "28": {
+      "signature": "de6734bff54d2a11b1f19a055ee8cb8410cef04b91415369a64697588e16361b",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "29": {
+      "signature": "8af668ae3ad34adf162884dd1106c689f083d1a8e7d82703417211683437ddce",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "30": {
+      "signature": "0a2ef458280c824154b19ea2afdd403f129bb67d98c456f7168ed1e3a39e6601",
+      "unit_data": {
+        "unit": "Packs",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "31": {
+      "signature": "64411caf809ec9bedd9776062e79cf96ab7766de16b0746c0dca64358b10225d",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "32": {
+      "signature": "17dbaf698f889e78846a1b082facaae1d44e623d1dc065fe0b8795753e91aef4",
+      "unit_data": {
+        "unit": "PRS",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "33": {
+      "signature": "15d72d5f721e233d868e0c857e9c4f1eca24cb8d118cd03ef1c66b17720cb48d",
+      "unit_data": {
+        "unit": "Packs",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "34": {
+      "signature": "d738ae57ceaa00bf2943b5d54d12a3b367cc192523bc078baeac3d5aec101e7e",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "35": {
+      "signature": "5b6bcc0fb5b850ef56b736c595a164abf62006fba8f20bfa2417d924d3eecd9f",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "36": {
+      "signature": "6d766b9cc94afc74207fcd740482b59d0663ca36faff6f606bdf7b60c8109bc0",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "37": {
+      "signature": "fd3fd79dd4b49bec82ca07ef174671065491de1339f497f74ab17461f98c82cf",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "38": {
+      "signature": "eeaebb35d6c3f914aa82399ea23c20d62a834eeaf9a5c8409a7b0e1c96061f8b",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "39": {
+      "signature": "7d0b25bc8fb5f3396b6c83b2baa2ed33536c2cd4b6e239b403b03559d6f832f2",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "40": {
+      "signature": "c81b963d44ab0a2722170d3f82b71482975fa4b26f26dae20f22acdd0baa071a",
+      "unit_data": {
+        "unit": "ROLL",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "41": {
+      "signature": "bc671664b2b0995d7df8a18ce921e0e1550537334cb8586e658cf678cc077471",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "42": {
+      "signature": "e5d50ae0368c87b568a5e599a03e68d004cd1498f9897ac4118804a382568a71",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "43": {
+      "signature": "e08f16f979ab972e39138830b8c447fcccd8a1a5f41761472282d0a441617b6b",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "44": {
+      "signature": "4c2fa533f5f912721b128fdf10270c8d0a1d683c548839197255a66e2ae57d1e",
+      "unit_data": {
+        "unit": "SET",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "45": {
+      "signature": "9b2b1607fca46cf5a9244dab04c2842a1436f7145a33c8bad489e136599ac55c",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "46": {
+      "signature": "badd09c979c236557dea14b7ebf40aad8ca1552b83c079fabdb02ccfb56ddb7d",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    },
+    "47": {
+      "signature": "1b50049616af0c489b27b03faf6f02b94586ce296909217f34f983ebf0ef2c3d",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "UOM printed in invoice",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: UOM printed in invoice"
+      }
+    }
+  }
+}

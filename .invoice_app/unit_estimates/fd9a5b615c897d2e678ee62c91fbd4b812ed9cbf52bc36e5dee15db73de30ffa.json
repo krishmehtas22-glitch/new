@@ -1,0 +1,511 @@
+{
+  "source_sha256": "fd9a5b615c897d2e678ee62c91fbd4b812ed9cbf52bc36e5dee15db73de30ffa",
+  "items": {
+    "0": {
+      "signature": "e2040fb7da673670fde73e979a2224cb1000afb5fb094019c11603fc640f8364",
+      "unit_data": {
+        "unit": "BOX",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "1": {
+      "signature": "768b9635745b7810965efac7736dd3917cb3e82435ef2b29c85e051c0be83e70",
+      "unit_data": {
+        "unit": "REAM",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "2": {
+      "signature": "1f8c23d8495214a9c951d3d0da901be5dcfcf65b9f27157a85067a8122420892",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "3": {
+      "signature": "a8cc4c74240cd62c1abe8a271aa50c5c6f61f6719225cffd053830fc9f1041d5",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "4": {
+      "signature": "7adc84eafed1bea7167a35c672e9de9e16a0435f802300391b66ce1128f299b0",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "5": {
+      "signature": "a092c4deb0a0112d1588fb175d40174ac01cddc5c8b6d52bf9fabb962b9c1207",
+      "unit_data": {
+        "unit": "PKT",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "6": {
+      "signature": "e12681fb82bd41f05c56d145ad0295b79e48e1ae168a9907429a8ea6fd50ca73",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "7": {
+      "signature": "b9b06e675121bd2990a8f3e316ad89058c1d12ff8b80b5085eb99647f1836759",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "8": {
+      "signature": "cfdb5d72b6eb61d865a74d9021772b65c624de557527ebca169c245686c77cb1",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "9": {
+      "signature": "c48de3c4b83609579b5d24f1058279a09a25a7d1ce4cdabf3e8cec549ef97117",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "10": {
+      "signature": "335d612c1a1965227bf7434b18aed59d94b07a71192b251bf9f37c7f7e9ac698",
+      "unit_data": {
+        "unit": "ROLL",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "11": {
+      "signature": "c7e8eca5ddf4026a3ebcbce68f84190998237492d6c4448b748f95dd9ef67c0f",
+      "unit_data": {
+        "unit": "PKT",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "12": {
+      "signature": "4e5453c271ad41b4abd5ab350db224280566bcb3f86e64fadc8d8172aeced4f6",
+      "unit_data": {
+        "unit": "PKT",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "13": {
+      "signature": "a554b08575fe6170cd4e3c49cdc0931e531769ee29bfbb2689c1c6f5e59d69d0",
+      "unit_data": {
+        "unit": "BTL",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "14": {
+      "signature": "1613389960516ac0b50ca5dd4c96471a90f5a2b432ae948d5b4a1d4cc5bc4253",
+      "unit_data": {
+        "unit": "BOX",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "15": {
+      "signature": "db1bca35a05bfd1213f9ee50e2882b24a1cf1c9f63e22755b5c1078f1a678d8e",
+      "unit_data": {
+        "unit": "REAM",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "16": {
+      "signature": "49e11aa53ff0bfada78d8e7ac5778ca0c33db23d45a0b959f23fd2566668d771",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "17": {
+      "signature": "1e1fafcf45d63ebcc18a899fe604e89fd3b179aad9d6d8cd6c9336397762e6a3",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "18": {
+      "signature": "9e54a0e672d3ecc1a19a82045087a57d159e05f4447f42bcf7418ed1006327f4",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "19": {
+      "signature": "29c22505b9c345beee6e3e1bfc58ace0b4da2ca00cd3aa8b54c600e8291bb327",
+      "unit_data": {
+        "unit": "PKT",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "20": {
+      "signature": "c9409eb694c08d87eaaf5e8e512644b60ee89b6d9e36b6aed6d9fbb61d860911",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "21": {
+      "signature": "982ef535aa6fb678ee68bc449ecaeba65806524d56a0fc1590a83dcdb46d151a",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "22": {
+      "signature": "f7ffd2ae2644584373182e3a3231bbc46ac25658664b234a5a1da46eb2d66e01",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "23": {
+      "signature": "70c301b9339ab1a9d78c0678c60a8ead8419424663bbd1077977013242151da8",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "24": {
+      "signature": "01ca9ee02eee1973478c086e2bac7709a6385a8727f241063619043d8a207c3b",
+      "unit_data": {
+        "unit": "ROLL",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "25": {
+      "signature": "f6a829f34cee6ff245bfb4e36cf0992e9b35179204049f5b4956d1576b269775",
+      "unit_data": {
+        "unit": "PKT",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "26": {
+      "signature": "65d8412eb1c54950fc95fbf167f6c220c4c1a25b82ced1ad05a0e60b65d8f561",
+      "unit_data": {
+        "unit": "PKT",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "27": {
+      "signature": "7e1cb434bddf5dbb64ef9ec5a5ff556fb5093144176996112056cb2fdd85b0f7",
+      "unit_data": {
+        "unit": "BTL",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "28": {
+      "signature": "f158be3ca4fd22d4f4820c1e032dbf373d251c57dd36a0ffe63302f2913cac4d",
+      "unit_data": {
+        "unit": "BOX",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "29": {
+      "signature": "4cb19baffa2a17db9f11f151effb0170babf74f64223a140dce3beb197014086",
+      "unit_data": {
+        "unit": "REAM",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "30": {
+      "signature": "341d89eb502e673aa2caaf6d6e5b009e3458d20c6124ad7a94ed0169b801db2a",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "31": {
+      "signature": "e63c212578beb182a47777bccff9ad783e45998ed1456b8ea49a2e02b3fd18d6",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "32": {
+      "signature": "cb6facb7b3130ce197667fedec6d4cc782ba1dfe10dd47670d4864102a48f914",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "33": {
+      "signature": "71c3d89df9cc04ac1ed8cb8f986f813099df1a198efb3d81671509d3045fd124",
+      "unit_data": {
+        "unit": "PKT",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "34": {
+      "signature": "4261ac70f5300df96b76768ed9d3d1c9a551bf9a346ce994b1ad185f28b6017e",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "35": {
+      "signature": "0fca8565f7e42c564010ff1082277642db2a98195ad309d8d59d2445737935ec",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "36": {
+      "signature": "2afc6881502c0b5eeaf5dc60e8bfdba00e80c720f06c1365a0c976b9af6ae961",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "37": {
+      "signature": "d3318fc852c8f3dbef1ef69f1bc029b4292f8ba164999635c7461bb4bb5e18fd",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "38": {
+      "signature": "4003cd0aa8a4fc526c68bc23068b138879023d37671fb44cb6b28065c37b2505",
+      "unit_data": {
+        "unit": "ROLL",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "39": {
+      "signature": "b86ab5709526d816050b3a4668119df18841ba1ea6f2c5c3f5dd2dbf86b6dc70",
+      "unit_data": {
+        "unit": "PKT",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "40": {
+      "signature": "e3508abbda75d0fa549b176e67adaf24707af4cd0389be129c8dc7000a032eb9",
+      "unit_data": {
+        "unit": "PKT",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "41": {
+      "signature": "282ea8e40780de124e17eb8fef913f5eb8eb6d981abe2a3efd16671a46b86c48",
+      "unit_data": {
+        "unit": "BTL",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "42": {
+      "signature": "5cc09d70ffa87d0877178af93bb155239d632636eeb374ffcc3f1993a635acaf",
+      "unit_data": {
+        "unit": "BOX",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "43": {
+      "signature": "39012f9a4f78b1cc2710fb7272b29bd65aaf7ce3cefb4a38f9b43634ba5852fb",
+      "unit_data": {
+        "unit": "REAM",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "44": {
+      "signature": "e0a1bfaeeeb050137e6ed1d35f8b7bcac45a53ee572f024d07a06f9978cd2866",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    },
+    "45": {
+      "signature": "664e9c8b1dc6147709d5c8741ecb1cc48a627d8ec2db2c20e71c9bf13fae22c2",
+      "unit_data": {
+        "unit": "Nos",
+        "unit_basis": "printed",
+        "unit_reason": "Printed UOM",
+        "unit_origin": "ai_printed",
+        "unit_auto": false,
+        "unit_evidence": "Groq reported printed unit: Printed UOM"
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parser_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665|4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945|True",
+  "reader_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665",
+  "source_sha256": "bb9905f523e7c55b69f8bc99d7a9d60dc9e853e106ba4e46859cf6d4ca3ff3b9",
+  "text": "      Western Trade Supplies                                                                                                                                                                            TAX INVOICE\n\n  12 Industrial Estate, Fort, Mumbai, Maharashtra - 400001\n  GSTIN: 27DEMOA1000A1Z5\n\n\n\n      INVOICE                                                                      DATE                                                   PLACE OF SUPPLY\n      TEST-26-27-267                                                               07/10/2026                                             Maharashtra\n\n\n\n      BILL TO                                                                                                                                       SUPPLY DETAILS\n      Thane Paper & Supplies                                                                                                                        From: Maharashtra (27)\n      Thane Paper & Supplies, Maharashtra                                                                                                           Place of supply: Maharashtra\n      Buyer GSTIN: 27TESTL8100L1Z5                                                                                                                  Currency: INR\n\n\n\n\n    Goods / Description                                                         HSN                      Qty              Unit              Rate                          Taxable                          GST %               GST Amt\n\n\n    A4 copier paper 500 sheets                                                  480256                   26               REAM              335.00                        8,710.00                         12                  1,045.20\n\n\n    Desktop file tray                                                           392610                   14               PCS               290.00                        4,060.00                         18                  730.80\n\n\n    Plastic storage bin                                                         392310                   11               PCS               410.00                        4,510.00                         18                  811.80\n\n\n\n\n      Sales value excluding GST                                                                                                                                                                                                     17,280.00\n\n\n      Output CGST                                                                                                                                                                                                                     1,293.90\n\n\n      Output SGST                                                                                                                                                                                                                     1,293.90\n\n\n      Output IGST                                                                                                                                                                                                                              0.00\n\n      INVOICE TOTAL (INR)                                                                                                                                                                                                     19,867.80\n\n\n\n  Intra-state sale: CGST and SGST shown separately.\n\n  Declaration: This is a fictional sample document solely for automation testing.\n\n\n  For Western Trade Supplies\n\n\n  Authorised Signatory (sample)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTEST DATA ONLY - NOT FOR ACTUAL GST FILING                                                                                                                                                                     TEST-26-27-267 | Page 1",
+  "invoice": {
+    "seller_name": "Western Trade Supplies",
+    "seller_gstin": "27DEMOA1000A1Z5",
+    "buyer_gstin": "27TESTL8100L1Z5",
+    "place_of_supply": "Maharashtra",
+    "total": "19,867.80",
+    "currency": "INR",
+    "igst": "0",
+    "seller_name_source": "Printed seller masthead",
+    "items": [
+      {
+        "name": "A4 copier paper 500 sheets",
+        "hsn": "480256",
+        "quantity": "26",
+        "unit": "REAM",
+        "rate": "335.00",
+        "value": "8,710.00",
+        "gst_rate": "12",
+        "tax_rates_printed": true,
+        "cgst_rate": "6",
+        "sgst_rate": "6",
+        "igst_rate": "0"
+      },
+      {
+        "name": "Desktop file tray",
+        "hsn": "392610",
+        "quantity": "14",
+        "unit": "PCS",
+        "rate": "290.00",
+        "value": "4,060.00",
+        "gst_rate": "18",
+        "tax_rates_printed": true,
+        "cgst_rate": "9",
+        "sgst_rate": "9",
+        "igst_rate": "0"
+      },
+      {
+        "name": "Plastic storage bin",
+        "hsn": "392310",
+        "quantity": "11",
+        "unit": "PCS",
+        "rate": "410.00",
+        "value": "4,510.00",
+        "gst_rate": "18",
+        "tax_rates_printed": true,
+        "cgst_rate": "9",
+        "sgst_rate": "9",
+        "igst_rate": "0"
+      }
+    ],
+    "extraction_warnings": [
+      "Ambiguous buyer_name: label and layout values differ"
+    ]
+  }
+}

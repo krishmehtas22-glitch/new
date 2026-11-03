@@ -1,0 +1,60 @@
+{
+  "parser_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665|4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945|True",
+  "reader_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665",
+  "source_sha256": "4dc8fab5ff031101f1045cc3fcd06b18a67eb20e6d789bcc7fff807bc678c3e1",
+  "text": "                                                                 TAX INVOICE\n\nSahyadri Electricals Pvt Ltd\nUnit 12, Andheri Industrial Estate, Andheri East, Mumbai 400093\nGSTIN: 27AABCS1234F1Z5 | State: Maharashtra (27)\nPh: 022-4000 1111\n\nInvoice No: SI/26-27/0142                                                       Bill To:\nDate: 05-Oct-2026                                                               Kalpataru Interiors LLP\nPlace of Supply: Maharashtra (27)                                               Plot 4, MIDC, Thane 400604\n                                                                                GSTIN: 27AAGFK5678L1Z2\n\n #     Description                                       HSN/SAC           Qty      UOM           Rate    Disc%      Taxable Value      GST%         GST Amt\n\n 1     LED Panel Light 40W                               94054090           50      NOS        1250.00          0          62500.00       18%        11250.00\n\n 2     Modular Switch Plate 8M                           85365090          120      NOS         185.50          0          22260.00       18%          4006.80\n\n 3     Copper Wire 1.5 sq mm (90m coil)                  85444999           30      COIL       2100.00          0          63000.00       18%        11340.00\n\n                                                                                                Total Taxable Value                                147760.00\n\n                                                                                                CGST                                                13298.40\n\n                                                                                                SGST/UTGST                                          13298.40\n\n                                                                                                Round Off                                                 0.20\n\n                                                                                                Invoice Total (INR)                                174357.00\n\nAmount in words: Rupees One Lakh Seventy Four Thousand Three Hundred Fifty Seven Only\n\n GST%                            Taxable                         Tax\n\n 18%                          147760.00                   26596.80\n\nTerms: 30 days credit. Subject to Mumbai jurisdiction.\n\n\nFor Sahyadri Electricals Pvt Ltd\n\nAuthorised Signatory",
+  "invoice": {
+    "number": "SI/26-27/0142",
+    "date": "05-Oct-2026                                                               Kalpataru Interiors LLP",
+    "seller_name": "Sahyadri Electricals Pvt Ltd",
+    "seller_gstin": "27AABCS1234F1Z5",
+    "buyer_name": "Date: 05-Oct-2026                                                               Kalpataru Interiors LLP",
+    "place_of_supply": "Maharashtra (27)                                               Plot 4, MIDC, Thane 400604",
+    "classification": "taxable",
+    "total": "174357.00",
+    "round_off": "0.20",
+    "cgst": "13298.40",
+    "seller_name_source": "Printed seller masthead",
+    "items": [
+      {
+        "name": "LED Panel Light 40W",
+        "hsn": "94054090",
+        "quantity": "50",
+        "unit": "NOS",
+        "rate": "1250.00",
+        "value": "62500.00",
+        "gst_rate": "18",
+        "printed_gst_rate": "18%",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "Modular Switch Plate 8M",
+        "hsn": "85365090",
+        "quantity": "120",
+        "unit": "NOS",
+        "rate": "185.50",
+        "value": "22260.00",
+        "gst_rate": "18",
+        "printed_gst_rate": "18%",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "Copper Wire 1.5 sq mm (90m coil)",
+        "hsn": "85444999",
+        "quantity": "30",
+        "unit": "COIL",
+        "rate": "2100.00",
+        "value": "63000.00",
+        "gst_rate": "18",
+        "printed_gst_rate": "18%",
+        "tax_rates_printed": true
+      }
+    ],
+    "source_layout": "flexible_roles_v1",
+    "extraction_warnings": [
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "parser_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665|4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945|True",
+  "reader_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665",
+  "source_sha256": "689af3d6c34e7449851c35e0623f837fc64eb06c46d9db0a72849d5345d393f1",
+  "text": "     Western Trade Supplies                                                                                                                                                                                                                                                                    EXPORT INVOICE\n                                                                                                                                                                                                                                                                                                   TEST-26-27-273\n\n  12 Industrial Estate, Fort, Mumbai, Maharashtra - 400001 | GSTIN 27DEMOA1000A1Z5\n\n\n     Invoice date: 13/10/2026                                                                 Supply destination: Singapore                                                                                                                          Document type: EXPORT\n\n\n\n     BILL TO                                                                                                                                                                                                   SUPPLY DETAILS\n     Marina Workspace Trading Pte Ltd                                                                                                                                                                          From: Maharashtra (27)\n     Marina Workspace Trading Pte Ltd, Singapore                                                                                                                                                               Place of supply: Singapore\n     Buyer GSTIN: N/A - overseas customer                                                                                                                                                                      Currency: INR\n\n\n\n\n    Goods / Description                                                                                         HSN                                 Qty                   Unit                      Rate                                       Taxable                                        GST %                       GST Amt\n\n\n    Metal shelving units                                                                                        940320                              10                    PCS                       3,860.00                                   38,600.00                                      0                           0.00\n\n\n    Plastic desk accessories                                                                                    392610                              36                    SET                       700.00                                     25,200.00                                      0                           0.00\n\n\n\n     Sales value excluding GST                                                                                                                                                                                                                                                                                                               63,800.00\n\n\n     Output CGST                                                                                                                                                                                                                                                                                                                                        0.00\n\n\n     Output SGST                                                                                                                                                                                                                                                                                                                                        0.00\n\n\n     Output IGST                                                                                                                                                                                                                                                                                                                                        0.00\n\n\n     INVOICE TOTAL (INR)                                                                                                                                                                                                                                                                                                               63,800.00\n\n\n\n  Export under LUT without payment of IGST; destination Singapore.\n\n  Declaration: This is a fictional sample document solely for automation testing.\n\n\n  For Western Trade Supplies\n\n\n  Authorised Signatory (sample)\n\n\n\nTEST DATA ONLY - NOT FOR ACTUAL GST FILING                                                                                                                                                                                                                                                                              TEST-26-27-273 | Page 1",
+  "invoice": {
+    "date": "13/10/2026                                                                 Supply",
+    "seller_name": "Western Trade Supplies",
+    "place_of_supply": "Outside India",
+    "classification": "export_lut",
+    "total": "63,800.00",
+    "buyer_country": "Singapore                                                                                                                          Document",
+    "supply": "EXPORT",
+    "export_mode": "LUT_without_payment",
+    "currency": "INR",
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "0",
+    "seller_name_source": "Printed seller masthead",
+    "items": [
+      {
+        "name": "Metal shelving units",
+        "hsn": "940320",
+        "quantity": "10",
+        "unit": "PCS",
+        "rate": "3,860.00",
+        "value": "38,600.00",
+        "gst_rate": "0",
+        "tax_rates_printed": true,
+        "printed_gst_rate": "0",
+        "cgst_rate": "0",
+        "sgst_rate": "0",
+        "igst_rate": "0"
+      },
+      {
+        "name": "Plastic desk accessories",
+        "hsn": "392610",
+        "quantity": "36",
+        "unit": "SET",
+        "rate": "700.00",
+        "value": "25,200.00",
+        "gst_rate": "0",
+        "tax_rates_printed": true,
+        "printed_gst_rate": "0",
+        "cgst_rate": "0",
+        "sgst_rate": "0",
+        "igst_rate": "0"
+      }
+    ],
+    "extraction_warnings": [
+      "Ambiguous buyer_name: label and layout values differ",
+      "Ambiguous buyer_gstin: label and layout values differ"
+    ]
+  }
+}

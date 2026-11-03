@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ENVELOPE>
+  <HEADER>
+    <TALLYREQUEST>Import Data</TALLYREQUEST>
+  </HEADER>
+  <BODY>
+    <IMPORTDATA>
+      <REQUESTDESC>
+        <REPORTNAME>All Masters</REPORTNAME>
+        <STATICVARIABLES />
+      </REQUESTDESC>
+      <REQUESTDATA>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Sales" ACTION="Create">
+            <NAME>Sales</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Sales</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sales Accounts</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <AFFECTSSTOCK>Yes</AFFECTSSTOCK>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Invoice differences - review" ACTION="Create">
+            <NAME>Invoice differences - review</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Invoice differences - review</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Indirect Expenses</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Vadodara Packaging House" ACTION="Create">
+            <NAME>Vadodara Packaging House</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Vadodara Packaging House</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sundry Debtors</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <ISBILLWISEON>Yes</ISBILLWISEON>
+            <PARTYGSTIN>24TESTP8400P1Z5</PARTYGSTIN>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Buyer unresolved - 9c520042fa" ACTION="Create">
+            <NAME>Buyer unresolved - 9c520042fa</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Buyer unresolved - 9c520042fa</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sundry Debtors</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <ISBILLWISEON>Yes</ISBILLWISEON>
+            <PARTYGSTIN>27TESTQ8500Q1Z5</PARTYGSTIN>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Buyer unresolved - 689af3d6c3" ACTION="Create">
+            <NAME>Buyer unresolved - 689af3d6c3</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Buyer unresolved - 689af3d6c3</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sundry Debtors</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <ISBILLWISEON>Yes</ISBILLWISEON>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Coimbatore Storage Mart" ACTION="Create">
+            <NAME>Coimbatore Storage Mart</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Coimbatore Storage Mart</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sundry Debtors</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <ISBILLWISEON>Yes</ISBILLWISEON>
+            <PARTYGSTIN>33TESTR8600R1Z5</PARTYGSTIN>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Buyer unresolved - b625089dc8" ACTION="Create">
+            <NAME>Buyer unresolved - b625089dc8</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Buyer unresolved - b625089dc8</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sundry Debtors</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <ISBILLWISEON>Yes</ISBILLWISEON>
+            <PARTYGSTIN>27TESTS8700S1Z5</PARTYGSTIN>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Nagpur Packaging Depot" ACTION="Create">
+            <NAME>Nagpur Packaging Depot</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Nagpur Packaging Depot</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sundry Debtors</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <ISBILLWISEON>Yes</ISBILLWISEON>
+            <PARTYGSTIN>27TESTT8800T1Z5</PARTYGSTIN>
+          </LEDGER>
+        </TALLYMESSAGE>
+      </REQUESTDATA>
+    </IMPORTDATA>
+  </BODY>
+</ENVELOPE>

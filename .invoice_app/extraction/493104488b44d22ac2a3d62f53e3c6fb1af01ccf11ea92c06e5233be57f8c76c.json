@@ -1,0 +1,70 @@
+{
+  "parser_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665|4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945|True",
+  "reader_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665",
+  "source_sha256": "493104488b44d22ac2a3d62f53e3c6fb1af01ccf11ea92c06e5233be57f8c76c",
+  "text": "                                                                      TAX INVOICE\nSagar Beverages Pvt Ltd\nPlot 61, MIDC Taloja, Navi Mumbai 410208\nGSTIN: 27AAECS7311B1ZV | State: Maharashtra (27)\n\nInvoice No: BEV/2610/00417                                                         Bill To:\nDate: 29-Oct-2026                                                                  Metro Cash & Distribution Co\nPlace of Supply: Maharashtra (27)                                                  Ghatkopar West, Mumbai 400086\n                                                                                   GSTIN: 27AAHCM1180R1Z0 | State: Maharashtra (27)\n\nDescription of Goods/Services               HSN/SAC          Qty    UOM              Rate   Disc%     Taxable Value     GST%           Cess      Tax Amt            Line Total\n\nAerated Water Cola 600ml (24 per            22021010        1800    CASE           432.00         3      7,54,272.00     90,512.64 (12%)28%   2,11,196.16        10,55,980.80\ncase)\n\nEnergy Drink Can 250ml (24 per              22029990         650    CASE         1,180.00         0      7,67,000.00     92,040.00 (12%)28%   2,14,760.00        10,73,800.00\ncase)\n\nMixed Fruit Juice 1L (12 per case)          20098990         900    CASE           720.00         4      6,22,080.00       12%             -    74,649.60          6,96,729.60\n\nPackaged Mineral Water 1L (12 per           22011010        2400    CASE           128.00         0      3,07,200.00       18%             -    55,296.00          3,62,496.00\ncase)\n\n                                                                                                    Total Taxable Value                                       24,50,552.00\n\n                                                                                                    CGST                                                        2,77,950.88\n\n                                                                                                    SGST/UTGST                                                  2,77,950.88\n\n                                                                                                    Compensation Cess                                           1,82,552.64\n\n                                                                                                    Round Off                                                           -0.40\n\n                                                                                                    Invoice Total (INR)                                       31,89,006.00\n\nAmount in words: Rupees Thirty One Lakh Eighty Nine Thousand Six Only\n\n  HSN/SAC           Taxable      Rate          CGST             SGST        Total Tax\n\n  20098990      6,22,080.00      12%        37,324.80       37,324.80       74,649.60\n\n  22011010      3,07,200.00      18%        27,648.00       27,648.00       55,296.00\n\n  22021010      7,54,272.00      28%      1,05,598.08     1,05,598.08     2,11,196.16\n\n  22029990      7,67,000.00      28%      1,07,380.00     1,07,380.00     2,14,760.00\n\n\nCess on 22021010 and 22029990 at 12%. Large amounts use Indian lakh/crore grouping (e.g. 12,34,567.00).\n\n\nFor Sagar Beverages Pvt Ltd\n\nAuthorised Signatory\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                                                                      Page 1 of 1",
+  "invoice": {
+    "number": "BEV/2610/00417",
+    "date": "29-Oct-2026                                                                  Metro Cash & Distribution Co",
+    "seller_name": "Sagar Beverages Pvt Ltd",
+    "seller_gstin": "27AAECS7311B1ZV",
+    "buyer_name": "Date: 29-Oct-2026                                                                  Metro Cash & Distribution Co",
+    "place_of_supply": "Maharashtra (27)                                                  Ghatkopar West, Mumbai 400086",
+    "classification": "taxable",
+    "total": "31,89,006.00",
+    "round_off": "-0.40",
+    "cgst": "2,77,950.88",
+    "seller_name_source": "Printed seller masthead",
+    "items": [
+      {
+        "name": "Aerated Water Cola 600ml (24 per",
+        "hsn": "22021010",
+        "quantity": "1800",
+        "unit": "CASE           4",
+        "rate": "32.00",
+        "value": "7,54,272.00",
+        "gst_rate": "90,512.64 (12",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "Energy Drink Can 250ml (24 per",
+        "hsn": "22029990",
+        "quantity": "650",
+        "unit": "CASE         1,1",
+        "rate": "80.00",
+        "value": "7,67,000.00",
+        "gst_rate": "92,040.00 (12",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "Mixed Fruit Juice 1L (12 per case)",
+        "hsn": "20098990",
+        "quantity": "900",
+        "unit": "CASE",
+        "rate": "720.00",
+        "value": "6,22,080.00",
+        "gst_rate": "12",
+        "printed_gst_rate": "12%",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "Packaged Mineral Water 1L (12 per",
+        "hsn": "22011010",
+        "quantity": "2400",
+        "unit": "CASE",
+        "rate": "128.00",
+        "value": "3,07,200.00",
+        "gst_rate": "18",
+        "printed_gst_rate": "18%",
+        "tax_rates_printed": true
+      }
+    ],
+    "source_layout": "flexible_roles_v1",
+    "extraction_warnings": [
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review"
+    ]
+  }
+}

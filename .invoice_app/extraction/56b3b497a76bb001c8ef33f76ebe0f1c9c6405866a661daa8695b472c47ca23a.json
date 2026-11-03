@@ -1,0 +1,57 @@
+{
+  "parser_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665|4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945|True",
+  "reader_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665",
+  "source_sha256": "56b3b497a76bb001c8ef33f76ebe0f1c9c6405866a661daa8695b472c47ca23a",
+  "text": "  EXPORT INVOICE\n  Invoice TEST-26-27-269 | Dated 09/10/2026\n\n\n  Western Trade Supplies\n  12 Industrial Estate, Fort, Mumbai, Maharashtra - 400001\n  Seller GSTIN: 27DEMOA1000A1Z5\n\n\n  Customer: Abu Dhabi Office Imports LLC\n  Buyer GSTIN: N/A - overseas customer\n  Buyer address: Abu Dhabi Office Imports LLC, United Arab Emirates\n  Place of supply: United Arab Emirates\n\n\n\n    Goods / Description                                                      HSN                      Qty             Unit             Rate                         Taxable                          GST %              GST Amt\n\n\n    Metal office cupboards                                                   940310                   9               PCS              6,760.00                     60,840.00                        0                  0.00\n\n\n    Office work desks                                                        940330                   6               PCS              12,910.00                    77,460.00                        0                  0.00\n\n\n\n      Sales value excluding GST                                                                                                                                                                                           138,300.00\n\n\n      Output CGST                                                                                                                                                                                                                      0.00\n\n\n      Output SGST                                                                                                                                                                                                                      0.00\n\n\n      Output IGST                                                                                                                                                                                                                      0.00\n\n\n      INVOICE TOTAL (INR)                                                                                                                                                                                           138,300.00\n\n\n\n  Export under LUT without payment of IGST; destination United Arab Emirates.\n\n  Declaration: This is a fictional sample document solely for automation testing.\n\n\n  For Western Trade Supplies\n\n\n  Authorised Signatory (sample)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTEST DATA ONLY - NOT FOR ACTUAL GST FILING                                                                                                                                                              TEST-26-27-269 | Page 1",
+  "invoice": {
+    "number": "TEST-26-27-269",
+    "seller_name": "Western Trade Supplies",
+    "seller_gstin": "27DEMOA1000A1Z5",
+    "buyer_name": "Abu Dhabi Office Imports LLC",
+    "place_of_supply": "Outside India",
+    "classification": "export_lut",
+    "total": "138,300.00",
+    "buyer_address": "Abu Dhabi Office Imports LLC, United Arab Emirates",
+    "buyer_country": "United Arab Emirates",
+    "supply": "EXPORT",
+    "export_mode": "LUT_without_payment",
+    "cgst": "0",
+    "sgst": "0",
+    "igst": "0",
+    "seller_name_source": "Printed seller masthead",
+    "items": [
+      {
+        "name": "Metal office cupboards",
+        "hsn": "940310",
+        "quantity": "9",
+        "unit": "PCS",
+        "rate": "6,760.00",
+        "value": "60,840.00",
+        "gst_rate": "0",
+        "tax_rates_printed": true,
+        "printed_gst_rate": "0",
+        "cgst_rate": "0",
+        "sgst_rate": "0",
+        "igst_rate": "0"
+      },
+      {
+        "name": "Office work desks",
+        "hsn": "940330",
+        "quantity": "6",
+        "unit": "PCS",
+        "rate": "12,910.00",
+        "value": "77,460.00",
+        "gst_rate": "0",
+        "tax_rates_printed": true,
+        "printed_gst_rate": "0",
+        "cgst_rate": "0",
+        "sgst_rate": "0",
+        "igst_rate": "0"
+      }
+    ],
+    "source_layout": "flexible_roles_v1",
+    "extraction_warnings": [
+      "Ambiguous buyer_gstin: label and layout values differ"
+    ]
+  }
+}

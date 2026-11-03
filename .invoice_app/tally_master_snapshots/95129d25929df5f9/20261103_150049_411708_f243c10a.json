@@ -1,0 +1,471 @@
+{
+  "schema_version": 1,
+  "mode": "review_only",
+  "company": "New\\",
+  "collected_at": "2026-11-03T15:00:49.292742+00:00",
+  "applied_to_reader": false,
+  "ledgers": [
+    {
+      "name": "Cash",
+      "fields": {
+        "PARENT": [
+          "Cash-in-Hand"
+        ],
+        "ISBILLWISEON": [
+          "No"
+        ],
+        "LANGUAGENAME.LIST": [
+          "Cash \n       \n        1033"
+        ]
+      },
+      "xml": "<LEDGER NAME=\"Cash\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\">Cash-in-Hand</PARENT>\n     <ISBILLWISEON TYPE=\"Logical\">No</ISBILLWISEON>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>Cash</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </LEDGER>\n    "
+    },
+    {
+      "name": "CGST",
+      "fields": {
+        "PARENT": [
+          "Duties & Taxes"
+        ],
+        "ISBILLWISEON": [
+          "No"
+        ],
+        "LANGUAGENAME.LIST": [
+          "CGST \n       \n        1033"
+        ]
+      },
+      "xml": "<LEDGER NAME=\"CGST\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\">Duties &amp; Taxes</PARENT>\n     <ISBILLWISEON TYPE=\"Logical\">No</ISBILLWISEON>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>CGST</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </LEDGER>\n    "
+    },
+    {
+      "name": "IGST",
+      "fields": {
+        "PARENT": [
+          "Duties & Taxes"
+        ],
+        "ISBILLWISEON": [
+          "No"
+        ],
+        "LANGUAGENAME.LIST": [
+          "IGST \n       \n        1033"
+        ]
+      },
+      "xml": "<LEDGER NAME=\"IGST\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\">Duties &amp; Taxes</PARENT>\n     <ISBILLWISEON TYPE=\"Logical\">No</ISBILLWISEON>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>IGST</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </LEDGER>\n    "
+    },
+    {
+      "name": "Invoice differences - review",
+      "fields": {
+        "PARENT": [
+          "Indirect Expenses"
+        ],
+        "ISBILLWISEON": [
+          "No"
+        ],
+        "LANGUAGENAME.LIST": [
+          "Invoice differences - review \n       \n        1033"
+        ]
+      },
+      "xml": "<LEDGER NAME=\"Invoice differences - review\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\">Indirect Expenses</PARENT>\n     <ISBILLWISEON TYPE=\"Logical\">No</ISBILLWISEON>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>Invoice differences - review</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </LEDGER>\n    "
+    },
+    {
+      "name": "Kalpataru Interiors LLP",
+      "fields": {
+        "PARENT": [
+          "Sundry Debtors"
+        ],
+        "PARTYGSTIN": [
+          "27AAGFK5678L1Z2"
+        ],
+        "ISBILLWISEON": [
+          "Yes"
+        ],
+        "LANGUAGENAME.LIST": [
+          "Kalpataru Interiors LLP \n       \n        1033"
+        ]
+      },
+      "xml": "<LEDGER NAME=\"Kalpataru Interiors LLP\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\">Sundry Debtors</PARENT>\n     <PARTYGSTIN TYPE=\"String\">27AAGFK5678L1Z2</PARTYGSTIN>\n     <ISBILLWISEON TYPE=\"Logical\">Yes</ISBILLWISEON>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>Kalpataru Interiors LLP</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </LEDGER>\n    "
+    },
+    {
+      "name": "Navsari Retail Mart",
+      "fields": {
+        "PARENT": [
+          "Sundry Debtors"
+        ],
+        "PARTYGSTIN": [
+          "24AAHFN9087C1Z9"
+        ],
+        "ISBILLWISEON": [
+          "Yes"
+        ],
+        "LANGUAGENAME.LIST": [
+          "Navsari Retail Mart \n       \n        1033"
+        ]
+      },
+      "xml": "<LEDGER NAME=\"Navsari Retail Mart\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\">Sundry Debtors</PARENT>\n     <PARTYGSTIN TYPE=\"String\">24AAHFN9087C1Z9</PARTYGSTIN>\n     <ISBILLWISEON TYPE=\"Logical\">Yes</ISBILLWISEON>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>Navsari Retail Mart</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </LEDGER>\n    "
+    },
+    {
+      "name": "Profit & Loss A/c",
+      "fields": {
+        "PARENT": [
+          "Primary"
+        ],
+        "ISBILLWISEON": [
+          "No"
+        ],
+        "LANGUAGENAME.LIST": [
+          "Profit & Loss A/c \n       \n        1033"
+        ]
+      },
+      "xml": "<LEDGER NAME=\"Profit &amp; Loss A/c\" RESERVEDNAME=\"Profit &amp; Loss A/c\">\n     <PARENT TYPE=\"String\"> Primary</PARENT>\n     <ISBILLWISEON TYPE=\"Logical\">No</ISBILLWISEON>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>Profit &amp; Loss A/c</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </LEDGER>\n    "
+    },
+    {
+      "name": "Raheja Builders",
+      "fields": {
+        "PARENT": [
+          "Sundry Debtors"
+        ],
+        "PARTYGSTIN": [
+          "27AAACR3344D1Z7"
+        ],
+        "ISBILLWISEON": [
+          "Yes"
+        ],
+        "LANGUAGENAME.LIST": [
+          "Raheja Builders \n       \n        1033"
+        ]
+      },
+      "xml": "<LEDGER NAME=\"Raheja Builders\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\">Sundry Debtors</PARENT>\n     <PARTYGSTIN TYPE=\"String\">27AAACR3344D1Z7</PARTYGSTIN>\n     <ISBILLWISEON TYPE=\"Logical\">Yes</ISBILLWISEON>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>Raheja Builders</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </LEDGER>\n    "
+    },
+    {
+      "name": "Round Off",
+      "fields": {
+        "PARENT": [
+          "Indirect Expenses"
+        ],
+        "ISBILLWISEON": [
+          "No"
+        ],
+        "LANGUAGENAME.LIST": [
+          "Round Off \n       \n        1033"
+        ]
+      },
+      "xml": "<LEDGER NAME=\"Round Off\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\">Indirect Expenses</PARENT>\n     <ISBILLWISEON TYPE=\"Logical\">No</ISBILLWISEON>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>Round Off</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </LEDGER>\n    "
+    },
+    {
+      "name": "Sales",
+      "fields": {
+        "PARENT": [
+          "Sales Accounts"
+        ],
+        "ISBILLWISEON": [
+          "No"
+        ],
+        "LANGUAGENAME.LIST": [
+          "Sales \n       \n        1033"
+        ]
+      },
+      "xml": "<LEDGER NAME=\"Sales\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\">Sales Accounts</PARENT>\n     <ISBILLWISEON TYPE=\"Logical\">No</ISBILLWISEON>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>Sales</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </LEDGER>\n    "
+    },
+    {
+      "name": "SGST",
+      "fields": {
+        "PARENT": [
+          "Duties & Taxes"
+        ],
+        "ISBILLWISEON": [
+          "No"
+        ],
+        "LANGUAGENAME.LIST": [
+          "SGST \n       \n        1033"
+        ]
+      },
+      "xml": "<LEDGER NAME=\"SGST\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\">Duties &amp; Taxes</PARENT>\n     <ISBILLWISEON TYPE=\"Logical\">No</ISBILLWISEON>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>SGST</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </LEDGER>\n   "
+    }
+  ],
+  "stock_items": [
+    {
+      "name": "Alphonso Mango Pulp 850g tin",
+      "fields": {
+        "PARENT": [
+          "Primary"
+        ],
+        "BASEUNITS": [
+          "TIN"
+        ],
+        "ADDITIONALUNITS": [
+          "Not Applicable"
+        ],
+        "GSTDETAILS.LIST": [
+          "20261012 \n       \n       On Value \n       \n       20089910 \n       \n       \n       \n       Taxable \n       \n       \n       \n       \n       \n       \n       \n       \n       \n       0"
+        ],
+        "HSNDETAILS.LIST": [
+          ""
+        ],
+        "LANGUAGENAME.LIST": [
+          "Alphonso Mango Pulp 850g tin \n       \n        1033"
+        ]
+      },
+      "xml": "<STOCKITEM NAME=\"Alphonso Mango Pulp 850g tin\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\"> Primary</PARENT>\n     <BASEUNITS TYPE=\"String\">TIN</BASEUNITS>\n     <ADDITIONALUNITS TYPE=\"String\"> Not Applicable</ADDITIONALUNITS>\n     <GSTDETAILS.LIST>\n      <APPLICABLEFROM>20261012</APPLICABLEFROM>\n      <GSTNOTIFICATIONDATE />\n      <CALCULATIONTYPE>On Value</CALCULATIONTYPE>\n      <REPORTINGUOM />\n      <HSNCODE>20089910</HSNCODE>\n      <HSNMASTERNAME />\n      <HSN />\n      <SUPPLYTYPE />\n      <TAXABILITY>Taxable</TAXABILITY>\n      <GSTNOTIFICATIONNUMBER />\n      <GSTNATUREOFTRANSACTION />\n      <NATUREOFGOODS />\n      <SRCOFGSTDETAILS />\n      <GSTCALCSLABONMRP />\n      <ISREVERSECHARGEAPPLICABLE />\n      <ISNONGSTGOODS />\n      <GSTINELIGIBLEITC />\n      <INCLUDEEXPFORSLABCALC />\n      <REVERSECHARGERATE>0</REVERSECHARGERATE>\n      <STATEWISEDETAILS.LIST>      </STATEWISEDETAILS.LIST>\n     </GSTDETAILS.LIST>\n     <HSNDETAILS.LIST>     </HSNDETAILS.LIST>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>Alphonso Mango Pulp 850g tin</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </STOCKITEM>\n    "
+    },
+    {
+      "name": "Cashew Kernels W320 (1kg pack)",
+      "fields": {
+        "PARENT": [
+          "Primary"
+        ],
+        "BASEUNITS": [
+          "KG"
+        ],
+        "ADDITIONALUNITS": [
+          "Not Applicable"
+        ],
+        "GSTDETAILS.LIST": [
+          "20261012 \n       \n       On Value \n       \n       08013220 \n       \n       \n       \n       Taxable \n       \n       \n       \n       \n       \n       \n       \n       \n       \n       0"
+        ],
+        "HSNDETAILS.LIST": [
+          ""
+        ],
+        "LANGUAGENAME.LIST": [
+          "Cashew Kernels W320 (1kg pack) \n       \n        1033"
+        ]
+      },
+      "xml": "<STOCKITEM NAME=\"Cashew Kernels W320 (1kg pack)\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\"> Primary</PARENT>\n     <BASEUNITS TYPE=\"String\">KG</BASEUNITS>\n     <ADDITIONALUNITS TYPE=\"String\"> Not Applicable</ADDITIONALUNITS>\n     <GSTDETAILS.LIST>\n      <APPLICABLEFROM>20261012</APPLICABLEFROM>\n      <GSTNOTIFICATIONDATE />\n      <CALCULATIONTYPE>On Value</CALCULATIONTYPE>\n      <REPORTINGUOM />\n      <HSNCODE>08013220</HSNCODE>\n      <HSNMASTERNAME />\n      <HSN />\n      <SUPPLYTYPE />\n      <TAXABILITY>Taxable</TAXABILITY>\n      <GSTNOTIFICATIONNUMBER />\n      <GSTNATUREOFTRANSACTION />\n      <NATUREOFGOODS />\n      <SRCOFGSTDETAILS />\n      <GSTCALCSLABONMRP />\n      <ISREVERSECHARGEAPPLICABLE />\n      <ISNONGSTGOODS />\n      <GSTINELIGIBLEITC />\n      <INCLUDEEXPFORSLABCALC />\n      <REVERSECHARGERATE>0</REVERSECHARGERATE>\n      <STATEWISEDETAILS.LIST>      </STATEWISEDETAILS.LIST>\n     </GSTDETAILS.LIST>\n     <HSNDETAILS.LIST>     </HSNDETAILS.LIST>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>Cashew Kernels W320 (1kg pack)</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </STOCKITEM>\n    "
+    },
+    {
+      "name": "Copper Wire 1.5 sq mm (90m coil)",
+      "fields": {
+        "PARENT": [
+          "Primary"
+        ],
+        "BASEUNITS": [
+          "COIL"
+        ],
+        "ADDITIONALUNITS": [
+          "Not Applicable"
+        ],
+        "GSTDETAILS.LIST": [
+          "20261005 \n       \n       On Value \n       \n       85444999 \n       \n       \n       \n       Taxable \n       \n       \n       \n       \n       \n       \n       \n       \n       \n       0"
+        ],
+        "HSNDETAILS.LIST": [
+          ""
+        ],
+        "LANGUAGENAME.LIST": [
+          "Copper Wire 1.5 sq mm (90m coil) \n       \n        1033"
+        ]
+      },
+      "xml": "<STOCKITEM NAME=\"Copper Wire 1.5 sq mm (90m coil)\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\"> Primary</PARENT>\n     <BASEUNITS TYPE=\"String\">COIL</BASEUNITS>\n     <ADDITIONALUNITS TYPE=\"String\"> Not Applicable</ADDITIONALUNITS>\n     <GSTDETAILS.LIST>\n      <APPLICABLEFROM>20261005</APPLICABLEFROM>\n      <GSTNOTIFICATIONDATE />\n      <CALCULATIONTYPE>On Value</CALCULATIONTYPE>\n      <REPORTINGUOM />\n      <HSNCODE>85444999</HSNCODE>\n      <HSNMASTERNAME />\n      <HSN />\n      <SUPPLYTYPE />\n      <TAXABILITY>Taxable</TAXABILITY>\n      <GSTNOTIFICATIONNUMBER />\n      <GSTNATUREOFTRANSACTION />\n      <NATUREOFGOODS />\n      <SRCOFGSTDETAILS />\n      <GSTCALCSLABONMRP />\n      <ISREVERSECHARGEAPPLICABLE />\n      <ISNONGSTGOODS />\n      <GSTINELIGIBLEITC />\n      <INCLUDEEXPFORSLABCALC />\n      <REVERSECHARGERATE>0</REVERSECHARGERATE>\n      <STATEWISEDETAILS.LIST>      </STATEWISEDETAILS.LIST>\n     </GSTDETAILS.LIST>\n     <HSNDETAILS.LIST>     </HSNDETAILS.LIST>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>Copper Wire 1.5 sq mm (90m coil)</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </STOCKITEM>\n    "
+    },
+    {
+      "name": "LED Panel Light 40W",
+      "fields": {
+        "PARENT": [
+          "Primary"
+        ],
+        "BASEUNITS": [
+          "Nos"
+        ],
+        "ADDITIONALUNITS": [
+          "Not Applicable"
+        ],
+        "GSTDETAILS.LIST": [
+          "20261005 \n       \n       On Value \n       \n       94054090 \n       \n       \n       \n       Taxable \n       \n       \n       \n       \n       \n       \n       \n       \n       \n       0"
+        ],
+        "HSNDETAILS.LIST": [
+          ""
+        ],
+        "LANGUAGENAME.LIST": [
+          "LED Panel Light 40W \n       \n        1033"
+        ]
+      },
+      "xml": "<STOCKITEM NAME=\"LED Panel Light 40W\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\"> Primary</PARENT>\n     <BASEUNITS TYPE=\"String\">Nos</BASEUNITS>\n     <ADDITIONALUNITS TYPE=\"String\"> Not Applicable</ADDITIONALUNITS>\n     <GSTDETAILS.LIST>\n      <APPLICABLEFROM>20261005</APPLICABLEFROM>\n      <GSTNOTIFICATIONDATE />\n      <CALCULATIONTYPE>On Value</CALCULATIONTYPE>\n      <REPORTINGUOM />\n      <HSNCODE>94054090</HSNCODE>\n      <HSNMASTERNAME />\n      <HSN />\n      <SUPPLYTYPE />\n      <TAXABILITY>Taxable</TAXABILITY>\n      <GSTNOTIFICATIONNUMBER />\n      <GSTNATUREOFTRANSACTION />\n      <NATUREOFGOODS />\n      <SRCOFGSTDETAILS />\n      <GSTCALCSLABONMRP />\n      <ISREVERSECHARGEAPPLICABLE />\n      <ISNONGSTGOODS />\n      <GSTINELIGIBLEITC />\n      <INCLUDEEXPFORSLABCALC />\n      <REVERSECHARGERATE>0</REVERSECHARGERATE>\n      <STATEWISEDETAILS.LIST>      </STATEWISEDETAILS.LIST>\n     </GSTDETAILS.LIST>\n     <HSNDETAILS.LIST>     </HSNDETAILS.LIST>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>LED Panel Light 40W</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </STOCKITEM>\n    "
+    },
+    {
+      "name": "Modular Switch Plate 8M",
+      "fields": {
+        "PARENT": [
+          "Primary"
+        ],
+        "BASEUNITS": [
+          "Nos"
+        ],
+        "ADDITIONALUNITS": [
+          "Not Applicable"
+        ],
+        "GSTDETAILS.LIST": [
+          "20261005 \n       \n       On Value \n       \n       85365090 \n       \n       \n       \n       Taxable \n       \n       \n       \n       \n       \n       \n       \n       \n       \n       0"
+        ],
+        "HSNDETAILS.LIST": [
+          ""
+        ],
+        "LANGUAGENAME.LIST": [
+          "Modular Switch Plate 8M \n       \n        1033"
+        ]
+      },
+      "xml": "<STOCKITEM NAME=\"Modular Switch Plate 8M\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\"> Primary</PARENT>\n     <BASEUNITS TYPE=\"String\">Nos</BASEUNITS>\n     <ADDITIONALUNITS TYPE=\"String\"> Not Applicable</ADDITIONALUNITS>\n     <GSTDETAILS.LIST>\n      <APPLICABLEFROM>20261005</APPLICABLEFROM>\n      <GSTNOTIFICATIONDATE />\n      <CALCULATIONTYPE>On Value</CALCULATIONTYPE>\n      <REPORTINGUOM />\n      <HSNCODE>85365090</HSNCODE>\n      <HSNMASTERNAME />\n      <HSN />\n      <SUPPLYTYPE />\n      <TAXABILITY>Taxable</TAXABILITY>\n      <GSTNOTIFICATIONNUMBER />\n      <GSTNATUREOFTRANSACTION />\n      <NATUREOFGOODS />\n      <SRCOFGSTDETAILS />\n      <GSTCALCSLABONMRP />\n      <ISREVERSECHARGEAPPLICABLE />\n      <ISNONGSTGOODS />\n      <GSTINELIGIBLEITC />\n      <INCLUDEEXPFORSLABCALC />\n      <REVERSECHARGERATE>0</REVERSECHARGERATE>\n      <STATEWISEDETAILS.LIST>      </STATEWISEDETAILS.LIST>\n     </GSTDETAILS.LIST>\n     <HSNDETAILS.LIST>     </HSNDETAILS.LIST>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>Modular Switch Plate 8M</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </STOCKITEM>\n    "
+    },
+    {
+      "name": "Ready-to-eat Millet Mix 500g",
+      "fields": {
+        "PARENT": [
+          "Primary"
+        ],
+        "BASEUNITS": [
+          "PKT"
+        ],
+        "ADDITIONALUNITS": [
+          "Not Applicable"
+        ],
+        "GSTDETAILS.LIST": [
+          "20261012 \n       \n       On Value \n       \n       19049000 \n       \n       \n       \n       Taxable \n       \n       \n       \n       \n       \n       \n       \n       \n       \n       0"
+        ],
+        "HSNDETAILS.LIST": [
+          ""
+        ],
+        "LANGUAGENAME.LIST": [
+          "Ready-to-eat Millet Mix 500g \n       \n        1033"
+        ]
+      },
+      "xml": "<STOCKITEM NAME=\"Ready-to-eat Millet Mix 500g\" RESERVEDNAME=\"\">\n     <PARENT TYPE=\"String\"> Primary</PARENT>\n     <BASEUNITS TYPE=\"String\">PKT</BASEUNITS>\n     <ADDITIONALUNITS TYPE=\"String\"> Not Applicable</ADDITIONALUNITS>\n     <GSTDETAILS.LIST>\n      <APPLICABLEFROM>20261012</APPLICABLEFROM>\n      <GSTNOTIFICATIONDATE />\n      <CALCULATIONTYPE>On Value</CALCULATIONTYPE>\n      <REPORTINGUOM />\n      <HSNCODE>19049000</HSNCODE>\n      <HSNMASTERNAME />\n      <HSN />\n      <SUPPLYTYPE />\n      <TAXABILITY>Taxable</TAXABILITY>\n      <GSTNOTIFICATIONNUMBER />\n      <GSTNATUREOFTRANSACTION />\n      <NATUREOFGOODS />\n      <SRCOFGSTDETAILS />\n      <GSTCALCSLABONMRP />\n      <ISREVERSECHARGEAPPLICABLE />\n      <ISNONGSTGOODS />\n      <GSTINELIGIBLEITC />\n      <INCLUDEEXPFORSLABCALC />\n      <REVERSECHARGERATE>0</REVERSECHARGERATE>\n      <STATEWISEDETAILS.LIST>      </STATEWISEDETAILS.LIST>\n     </GSTDETAILS.LIST>\n     <HSNDETAILS.LIST>     </HSNDETAILS.LIST>\n     <LANGUAGENAME.LIST>\n      <NAME.LIST TYPE=\"String\">\n       <NAME>Ready-to-eat Millet Mix 500g</NAME>\n      </NAME.LIST>\n      <LANGUAGEID TYPE=\"Number\"> 1033</LANGUAGEID>\n     </LANGUAGENAME.LIST>\n    </STOCKITEM>\n   "
+    }
+  ],
+  "units": [
+    {
+      "name": "COIL",
+      "fields": {
+        "NAME": [
+          "COIL"
+        ],
+        "MAILINGNAME": [
+          "Measure of COIL"
+        ],
+        "ORIGINALNAME": [
+          "Measure of COIL"
+        ],
+        "GSTREPUOM": [
+          "OTH-OTHERS"
+        ],
+        "ISSIMPLEUNIT": [
+          "Yes"
+        ],
+        "CONVERSION": [
+          "0"
+        ],
+        "DECIMALPLACES": [
+          "3"
+        ]
+      },
+      "xml": "<UNIT NAME=\"COIL\" RESERVEDNAME=\"\">\n     <NAME TYPE=\"String\">COIL</NAME>\n     <MAILINGNAME TYPE=\"String\">Measure of COIL</MAILINGNAME>\n     <ORIGINALNAME TYPE=\"String\">Measure of COIL</ORIGINALNAME>\n     <GSTREPUOM TYPE=\"String\">OTH-OTHERS</GSTREPUOM>\n     <ISSIMPLEUNIT TYPE=\"Logical\">Yes</ISSIMPLEUNIT>\n     <CONVERSION TYPE=\"Number\">0</CONVERSION>\n     <DECIMALPLACES TYPE=\"Number\"> 3</DECIMALPLACES>\n    </UNIT>\n    "
+    },
+    {
+      "name": "KG",
+      "fields": {
+        "NAME": [
+          "KG"
+        ],
+        "MAILINGNAME": [
+          "Kilogram"
+        ],
+        "ORIGINALNAME": [
+          "Kilogram"
+        ],
+        "GSTREPUOM": [
+          "KGS-KILOGRAMS"
+        ],
+        "ISSIMPLEUNIT": [
+          "Yes"
+        ],
+        "CONVERSION": [
+          "0"
+        ],
+        "DECIMALPLACES": [
+          "3"
+        ]
+      },
+      "xml": "<UNIT NAME=\"KG\" RESERVEDNAME=\"\">\n     <NAME TYPE=\"String\">KG</NAME>\n     <MAILINGNAME TYPE=\"String\">Kilogram</MAILINGNAME>\n     <ORIGINALNAME TYPE=\"String\">Kilogram</ORIGINALNAME>\n     <GSTREPUOM TYPE=\"String\">KGS-KILOGRAMS</GSTREPUOM>\n     <ISSIMPLEUNIT TYPE=\"Logical\">Yes</ISSIMPLEUNIT>\n     <CONVERSION TYPE=\"Number\">0</CONVERSION>\n     <DECIMALPLACES TYPE=\"Number\"> 3</DECIMALPLACES>\n    </UNIT>\n    "
+    },
+    {
+      "name": "Nos",
+      "fields": {
+        "NAME": [
+          "Nos"
+        ],
+        "MAILINGNAME": [
+          "Number"
+        ],
+        "ORIGINALNAME": [
+          "Number"
+        ],
+        "GSTREPUOM": [
+          "NOS-NUMBERS"
+        ],
+        "ISSIMPLEUNIT": [
+          "Yes"
+        ],
+        "CONVERSION": [
+          "0"
+        ],
+        "DECIMALPLACES": [
+          "0"
+        ]
+      },
+      "xml": "<UNIT NAME=\"Nos\" RESERVEDNAME=\"\">\n     <NAME TYPE=\"String\">Nos</NAME>\n     <MAILINGNAME TYPE=\"String\">Number</MAILINGNAME>\n     <ORIGINALNAME TYPE=\"String\">Number</ORIGINALNAME>\n     <GSTREPUOM TYPE=\"String\">NOS-NUMBERS</GSTREPUOM>\n     <ISSIMPLEUNIT TYPE=\"Logical\">Yes</ISSIMPLEUNIT>\n     <CONVERSION TYPE=\"Number\">0</CONVERSION>\n     <DECIMALPLACES TYPE=\"Number\">0</DECIMALPLACES>\n    </UNIT>\n    "
+    },
+    {
+      "name": "PKT",
+      "fields": {
+        "NAME": [
+          "PKT"
+        ],
+        "MAILINGNAME": [
+          "Packets"
+        ],
+        "ORIGINALNAME": [
+          "Packets"
+        ],
+        "GSTREPUOM": [
+          "PAC-PACKS"
+        ],
+        "ISSIMPLEUNIT": [
+          "Yes"
+        ],
+        "CONVERSION": [
+          "0"
+        ],
+        "DECIMALPLACES": [
+          "0"
+        ]
+      },
+      "xml": "<UNIT NAME=\"PKT\" RESERVEDNAME=\"\">\n     <NAME TYPE=\"String\">PKT</NAME>\n     <MAILINGNAME TYPE=\"String\">Packets</MAILINGNAME>\n     <ORIGINALNAME TYPE=\"String\">Packets</ORIGINALNAME>\n     <GSTREPUOM TYPE=\"String\">PAC-PACKS</GSTREPUOM>\n     <ISSIMPLEUNIT TYPE=\"Logical\">Yes</ISSIMPLEUNIT>\n     <CONVERSION TYPE=\"Number\">0</CONVERSION>\n     <DECIMALPLACES TYPE=\"Number\">0</DECIMALPLACES>\n    </UNIT>\n    "
+    },
+    {
+      "name": "TIN",
+      "fields": {
+        "NAME": [
+          "TIN"
+        ],
+        "MAILINGNAME": [
+          "Measure of TIN"
+        ],
+        "ORIGINALNAME": [
+          "Measure of TIN"
+        ],
+        "GSTREPUOM": [
+          "OTH-OTHERS"
+        ],
+        "ISSIMPLEUNIT": [
+          "Yes"
+        ],
+        "CONVERSION": [
+          "0"
+        ],
+        "DECIMALPLACES": [
+          "3"
+        ]
+      },
+      "xml": "<UNIT NAME=\"TIN\" RESERVEDNAME=\"\">\n     <NAME TYPE=\"String\">TIN</NAME>\n     <MAILINGNAME TYPE=\"String\">Measure of TIN</MAILINGNAME>\n     <ORIGINALNAME TYPE=\"String\">Measure of TIN</ORIGINALNAME>\n     <GSTREPUOM TYPE=\"String\">OTH-OTHERS</GSTREPUOM>\n     <ISSIMPLEUNIT TYPE=\"Logical\">Yes</ISSIMPLEUNIT>\n     <CONVERSION TYPE=\"Number\">0</CONVERSION>\n     <DECIMALPLACES TYPE=\"Number\"> 3</DECIMALPLACES>\n    </UNIT>\n   "
+    }
+  ],
+  "counts": {
+    "ledgers": 11,
+    "stock_items": 6,
+    "units": 5
+  }
+}

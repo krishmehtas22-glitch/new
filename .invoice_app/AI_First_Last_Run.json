@@ -1,0 +1,32 @@
+{
+  "mode": "desktop_ai_first",
+  "primary_provider": "Groq",
+  "input_invoices": 2,
+  "new_ai_attempts": 1,
+  "new_ai_attempt_limit": 1,
+  "ai_read_invoices": 1,
+  "approved_reviews_retained": 0,
+  "local_or_review_fallbacks": 1,
+  "ai_stopped": false,
+  "warnings": [],
+  "xml_prepared": 2,
+  "tally_imports": 0,
+  "sources": [
+    {
+      "client": "abx",
+      "path": "F:\\Downloads\\new app\\abx\\Sales Invoices (PDF)\\H01_multipage_46_line_items.pdf",
+      "digest": "fd9a5b615c897d2e678ee62c91fbd4b812ed9cbf52bc36e5dee15db73de30ffa",
+      "status": "extracted",
+      "provider": "Groq",
+      "cached": true
+    },
+    {
+      "client": "abx",
+      "path": "F:\\Downloads\\new app\\abx\\Sales Invoices (PDF)\\H02_cess_28pct_hsn_summary_lakh_format.pdf",
+      "digest": "493104488b44d22ac2a3d62f53e3c6fb1af01ccf11ea92c06e5233be57f8c76c",
+      "status": "local fallback",
+      "provider": "Python",
+      "cached": false
+    }
+  ]
+}

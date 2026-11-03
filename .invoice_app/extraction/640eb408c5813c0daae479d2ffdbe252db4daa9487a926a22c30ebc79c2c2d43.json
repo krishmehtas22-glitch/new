@@ -1,0 +1,49 @@
+{
+  "parser_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665|4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945|True",
+  "reader_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665",
+  "source_sha256": "640eb408c5813c0daae479d2ffdbe252db4daa9487a926a22c30ebc79c2c2d43",
+  "text": "  TAX INVOICE\n  Invoice TEST-26-27-274 | Dated 14/10/2026\n\n\n  Western Trade Supplies\n  12 Industrial Estate, Fort, Mumbai, Maharashtra - 400001\n  Seller GSTIN: 27DEMOA1000A1Z5\n\n\n  Customer: Coimbatore Storage Mart\n  Buyer GSTIN: 33TESTR8600R1Z5\n  Buyer address: Coimbatore Storage Mart, Tamil Nadu\n  Place of supply: Tamil Nadu\n\n\n\n    Goods / Description                                                       HSN                      Qty             Unit             Rate                         Taxable                          GST %               GST Amt\n\n\n    Metal storage rack                                                        940320                   7               PCS              4,215.00                     29,505.00                        18                  5,310.90\n\n\n    Steel filing cabinet                                                      940310                   5               PCS              7,265.00                     36,325.00                        18                  6,538.50\n\n\n\n      Sales value excluding GST                                                                                                                                                                                               65,830.00\n\n\n      Output CGST                                                                                                                                                                                                                        0.00\n\n\n      Output SGST                                                                                                                                                                                                                        0.00\n\n\n      Output IGST                                                                                                                                                                                                             11,849.40\n\n\n      INVOICE TOTAL (INR)                                                                                                                                                                                                77,679.40\n\n\n\n  Inter-state sale: IGST shown separately.\n\n  Declaration: This is a fictional sample document solely for automation testing.\n\n\n  For Western Trade Supplies\n\n\n  Authorised Signatory (sample)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTEST DATA ONLY - NOT FOR ACTUAL GST FILING                                                                                                                                                                TEST-26-27-274 | Page 1",
+  "invoice": {
+    "number": "TEST-26-27-274",
+    "seller_name": "Western Trade Supplies",
+    "seller_gstin": "27DEMOA1000A1Z5",
+    "buyer_name": "Coimbatore Storage Mart",
+    "buyer_gstin": "33TESTR8600R1Z5",
+    "place_of_supply": "Tamil Nadu",
+    "total": "77,679.40",
+    "buyer_address": "Coimbatore Storage Mart, Tamil Nadu",
+    "cgst": "0",
+    "sgst": "0",
+    "seller_name_source": "Printed seller masthead",
+    "items": [
+      {
+        "name": "Metal storage rack",
+        "hsn": "940320",
+        "quantity": "7",
+        "unit": "PCS",
+        "rate": "4,215.00",
+        "value": "29,505.00",
+        "gst_rate": "18",
+        "tax_rates_printed": true,
+        "cgst_rate": "0",
+        "sgst_rate": "0",
+        "igst_rate": "18"
+      },
+      {
+        "name": "Steel filing cabinet",
+        "hsn": "940310",
+        "quantity": "5",
+        "unit": "PCS",
+        "rate": "7,265.00",
+        "value": "36,325.00",
+        "gst_rate": "18",
+        "tax_rates_printed": true,
+        "cgst_rate": "0",
+        "sgst_rate": "0",
+        "igst_rate": "18"
+      }
+    ],
+    "source_layout": "flexible_roles_v1",
+    "extraction_warnings": []
+  }
+}

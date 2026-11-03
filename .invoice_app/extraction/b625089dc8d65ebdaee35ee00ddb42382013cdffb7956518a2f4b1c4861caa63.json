@@ -1,0 +1,42 @@
+{
+  "parser_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665|4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945|True",
+  "reader_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665",
+  "source_sha256": "b625089dc8d65ebdaee35ee00ddb42382013cdffb7956518a2f4b1c4861caa63",
+  "text": "        Western Trade Supplies                                                                                                                                                                  BILL OF SUPPLY\n\n\n\n  12 Industrial Estate, Fort, Mumbai, Maharashtra - 400001 | GSTIN 27DEMOA1000A1Z5\n\n\n      Invoice: TEST-26-27-275                                                                 Date: 15/10/2026                                              POS: Maharashtra\n\n\n\n      BILL TO                                                                                                                                     SUPPLY DETAILS\n      Nashik Academic Books                                                                                                                       From: Maharashtra (27)\n      Nashik Academic Books, Maharashtra                                                                                                          Place of supply: Maharashtra\n      Buyer GSTIN: 27TESTS8700S1Z5                                                                                                                Currency: INR\n\n\n\n\n    Goods / Description                                                        HSN                      Qty             Unit              Rate                          Taxable                          GST %               GST Amt\n\n\n    Printed childrens books                                                    4901                     40              PCS               195.00                        7,800.00                         0                   0.00\n\n\n    Printed educational textbooks                                              4901                     29              PCS               315.00                        9,135.00                         0                   0.00\n\n\n\n      Sales value excluding GST                                                                                                                                                                                                   16,935.00\n\n\n      Output CGST                                                                                                                                                                                                                            0.00\n\n\n      Output SGST                                                                                                                                                                                                                            0.00\n\n\n      Output IGST                                                                                                                                                                                                                            0.00\n\n      INVOICE TOTAL (INR)                                                                                                                                                                                                   16,935.00\n\n\n\n  Exempt goods; no GST charged. Bill of Supply.\n\n  Declaration: This is a fictional sample document solely for automation testing.\n\n\n  For Western Trade Supplies\n\n\n  Authorised Signatory (sample)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTEST DATA ONLY - NOT FOR ACTUAL GST FILING                                                                                                                                                                   TEST-26-27-275 | Page 1",
+  "invoice": {
+    "date": "2026-10-15",
+    "seller_name": "Western Trade Supplies",
+    "buyer_gstin": "27TESTS8700S1Z5",
+    "place_of_supply": "Maharashtra",
+    "total": "16,935.00",
+    "currency": "INR",
+    "seller_name_source": "Printed seller masthead",
+    "items": [
+      {
+        "name": "Printed childrens books",
+        "hsn": "4901",
+        "quantity": "40",
+        "unit": "PCS",
+        "rate": "195.00",
+        "value": "7,800.00",
+        "gst_rate": "0",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "Printed educational textbooks",
+        "hsn": "4901",
+        "quantity": "29",
+        "unit": "PCS",
+        "rate": "315.00",
+        "value": "9,135.00",
+        "gst_rate": "0",
+        "tax_rates_printed": true
+      }
+    ],
+    "extraction_warnings": [
+      "Ambiguous buyer_name: label and layout values differ",
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review"
+    ]
+  }
+}

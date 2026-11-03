@@ -1,0 +1,1 @@
+Current complete client XML: 1. Units.xml → 2. Masters.xml → 3. Sales_Vouchers.xml. Use Import to Tally for explicit company selection and existing-unit reuse. Distinct sellers are routed separately in memory. Review warnings in Batch_Report.json; do not reimport already accepted vouchers. One internal previous-output backup is retained. XML creation is not import confirmation.

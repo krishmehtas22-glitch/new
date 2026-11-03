@@ -1,0 +1,35 @@
+{
+  "source_sha256": "bb9905f523e7c55b69f8bc99d7a9d60dc9e853e106ba4e46859cf6d4ca3ff3b9",
+  "items": {
+    "0": {
+      "signature": "b319706a1e6ceeac76f4959d74f9560fa79eee10679b02b6d854c977166e3920",
+      "unit_data": {
+        "unit": "REAM",
+        "unit_origin": "printed",
+        "unit_auto": false,
+        "unit_confidence": 1.0,
+        "unit_evidence": "Printed unit: REAM"
+      }
+    },
+    "1": {
+      "signature": "85776ca24d17436778e0f5ee660888cf033fa01d46e6d1a092cf57107d486975",
+      "unit_data": {
+        "unit": "PCS",
+        "unit_origin": "printed",
+        "unit_auto": false,
+        "unit_confidence": 1.0,
+        "unit_evidence": "Printed unit: PCS"
+      }
+    },
+    "2": {
+      "signature": "9a86bd6b8c9dd0c7444841f95b5b4c5aa7189cb51b83629bbe6c2aecde6d88a2",
+      "unit_data": {
+        "unit": "PCS",
+        "unit_origin": "printed",
+        "unit_auto": false,
+        "unit_confidence": 1.0,
+        "unit_evidence": "Printed unit: PCS"
+      }
+    }
+  }
+}

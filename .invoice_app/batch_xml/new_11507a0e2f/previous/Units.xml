@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ENVELOPE>
+  <HEADER>
+    <TALLYREQUEST>Import Data</TALLYREQUEST>
+  </HEADER>
+  <BODY>
+    <IMPORTDATA>
+      <REQUESTDESC>
+        <REPORTNAME>All Masters</REPORTNAME>
+        <STATICVARIABLES />
+      </REQUESTDESC>
+      <REQUESTDATA>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <UNIT Action="Create">
+            <NAME>Nos</NAME>
+            <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+            <ORIGINALNAME>Number</ORIGINALNAME>
+            <DECIMALPLACES>0</DECIMALPLACES>
+            <GSTREPUOM>NOS-NUMBERS</GSTREPUOM>
+          </UNIT>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <UNIT Action="Create">
+            <NAME>COIL</NAME>
+            <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+            <ORIGINALNAME>Measure of COIL</ORIGINALNAME>
+            <DECIMALPLACES>3</DECIMALPLACES>
+            <GSTREPUOM>OTH-OTHERS</GSTREPUOM>
+          </UNIT>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <UNIT Action="Create">
+            <NAME>TIN</NAME>
+            <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+            <ORIGINALNAME>Measure of TIN</ORIGINALNAME>
+            <DECIMALPLACES>3</DECIMALPLACES>
+            <GSTREPUOM>OTH-OTHERS</GSTREPUOM>
+          </UNIT>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <UNIT Action="Create">
+            <NAME>KG</NAME>
+            <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+            <ORIGINALNAME>Kilogram</ORIGINALNAME>
+            <DECIMALPLACES>3</DECIMALPLACES>
+            <GSTREPUOM>KGS-KILOGRAMS</GSTREPUOM>
+          </UNIT>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <UNIT Action="Create">
+            <NAME>PKT</NAME>
+            <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+            <ORIGINALNAME>Packets</ORIGINALNAME>
+            <DECIMALPLACES>0</DECIMALPLACES>
+            <GSTREPUOM>PAC-PACKS</GSTREPUOM>
+          </UNIT>
+        </TALLYMESSAGE>
+      </REQUESTDATA>
+    </IMPORTDATA>
+  </BODY>
+</ENVELOPE>

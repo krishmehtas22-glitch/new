@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ENVELOPE>
+  <HEADER>
+    <TALLYREQUEST>Import Data</TALLYREQUEST>
+  </HEADER>
+  <BODY>
+    <IMPORTDATA>
+      <REQUESTDESC>
+        <REPORTNAME>All Masters</REPORTNAME>
+        <STATICVARIABLES />
+      </REQUESTDESC>
+      <REQUESTDATA>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Sales" ACTION="Create">
+            <NAME>Sales</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Sales</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sales Accounts</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <AFFECTSSTOCK>Yes</AFFECTSSTOCK>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Invoice differences - review" ACTION="Create">
+            <NAME>Invoice differences - review</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Invoice differences - review</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Indirect Expenses</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="SOUTHERN POWER SYSTEMS PRIVATE LIMITED" ACTION="Create">
+            <NAME>SOUTHERN POWER SYSTEMS PRIVATE LIMITED</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>SOUTHERN POWER SYSTEMS PRIVATE LIMITED</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sundry Debtors</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <ISBILLWISEON>Yes</ISBILLWISEON>
+            <PARTYGSTIN>29AAACS4628K1Z1</PARTYGSTIN>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="IGST" ACTION="Create">
+            <NAME>IGST</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>IGST</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Duties &amp; Taxes</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <TAXTYPE>GST</TAXTYPE>
+            <GSTDUTYHEAD>Integrated Tax</GSTDUTYHEAD>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Round Off" ACTION="Create">
+            <NAME>Round Off</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Round Off</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Indirect Expenses</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Buyer unresolved - 1fe1eccfbc" ACTION="Create">
+            <NAME>Buyer unresolved - 1fe1eccfbc</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Buyer unresolved - 1fe1eccfbc</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sundry Debtors</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <ISBILLWISEON>Yes</ISBILLWISEON>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Buyer unresolved - 46a7312f2f" ACTION="Create">
+            <NAME>Buyer unresolved - 46a7312f2f</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Buyer unresolved - 46a7312f2f</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sundry Debtors</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <ISBILLWISEON>Yes</ISBILLWISEON>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <LEDGER NAME="Buyer unresolved - 19ffbee69a" ACTION="Create">
+            <NAME>Buyer unresolved - 19ffbee69a</NAME>
+            <LANGUAGENAME.LIST>
+              <NAME.LIST TYPE="String">
+                <NAME>Buyer unresolved - 19ffbee69a</NAME>
+              </NAME.LIST>
+              <LANGUAGEID>1033</LANGUAGEID>
+            </LANGUAGENAME.LIST>
+            <PARENT>Sundry Debtors</PARENT>
+            <OPENINGBALANCE>0</OPENINGBALANCE>
+            <ISBILLWISEON>Yes</ISBILLWISEON>
+          </LEDGER>
+        </TALLYMESSAGE>
+      </REQUESTDATA>
+    </IMPORTDATA>
+  </BODY>
+</ENVELOPE>

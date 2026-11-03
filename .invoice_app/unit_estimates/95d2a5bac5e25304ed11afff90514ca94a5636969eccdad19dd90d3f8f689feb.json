@@ -1,0 +1,25 @@
+{
+  "source_sha256": "95d2a5bac5e25304ed11afff90514ca94a5636969eccdad19dd90d3f8f689feb",
+  "items": {
+    "0": {
+      "signature": "127efd1544815ed7b2b41afdb7449c87e0cb8257c9bae8d4321d169468067195",
+      "unit_data": {
+        "unit": "PCS",
+        "unit_origin": "printed",
+        "unit_auto": false,
+        "unit_confidence": 1.0,
+        "unit_evidence": "Printed unit: PCS"
+      }
+    },
+    "1": {
+      "signature": "58fdb82e1fa5c3707970ab38cdb35a68304ed493aa60313ec6935d55e45cee4f",
+      "unit_data": {
+        "unit": "PCS",
+        "unit_origin": "printed",
+        "unit_auto": false,
+        "unit_confidence": 1.0,
+        "unit_evidence": "Printed unit: PCS"
+      }
+    }
+  }
+}

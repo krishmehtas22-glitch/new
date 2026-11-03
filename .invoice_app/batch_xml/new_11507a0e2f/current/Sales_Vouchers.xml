@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ENVELOPE>
+  <HEADER>
+    <TALLYREQUEST>Import Data</TALLYREQUEST>
+  </HEADER>
+  <BODY>
+    <IMPORTDATA>
+      <REQUESTDESC>
+        <REPORTNAME>Vouchers</REPORTNAME>
+        <STATICVARIABLES />
+      </REQUESTDESC>
+      <REQUESTDATA>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER REMOTEID="e9b0f194-0263-5a43-a24f-6478176bb426" VCHTYPE="Sales" ACTION="Create" OBJVIEW="Invoice Voucher View">
+            <DATE>20261005</DATE>
+            <EFFECTIVEDATE>20261005</EFFECTIVEDATE>
+            <GUID>e9b0f194-0263-5a43-a24f-6478176bb426</GUID>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>SI/26-27/0142</VOUCHERNUMBER>
+            <REFERENCE>SI/26-27/0142</REFERENCE>
+            <PARTYLEDGERNAME>Kalpataru Interiors LLP</PARTYLEDGERNAME>
+            <PARTYNAME>Kalpataru Interiors LLP</PARTYNAME>
+            <BASICBUYERNAME>Kalpataru Interiors LLP</BASICBUYERNAME>
+            <PERSISTEDVIEW>Invoice Voucher View</PERSISTEDVIEW>
+            <ISINVOICE>Yes</ISINVOICE>
+            <ISOPTIONAL>No</ISOPTIONAL>
+            <ISCANCELLED>No</ISCANCELLED>
+            <BASICBUYERADDRESS.LIST TYPE="String">
+              <BASICBUYERADDRESS>Plot 4, MIDC, Thane 400604</BASICBUYERADDRESS>
+            </BASICBUYERADDRESS.LIST>
+            <PARTYGSTIN>27AAGFK5678L1Z2</PARTYGSTIN>
+            <PLACEOFSUPPLY>Maharashtra</PLACEOFSUPPLY>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Kalpataru Interiors LLP</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-174357.00</AMOUNT>
+              <BILLALLOCATIONS.LIST>
+                <NAME>SI/26-27/0142</NAME>
+                <BILLTYPE>New Ref</BILLTYPE>
+                <AMOUNT>-174357.00</AMOUNT>
+              </BILLALLOCATIONS.LIST>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>LED Panel Light 40W</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <ACTUALQTY>50 Nos</ACTUALQTY>
+              <BILLEDQTY>50 Nos</BILLEDQTY>
+              <AMOUNT>62500.00</AMOUNT>
+              <RATE>1250.00/Nos</RATE>
+              <BATCHALLOCATIONS.LIST>
+                <GODOWNNAME>Main Location</GODOWNNAME>
+                <BATCHNAME>Primary Batch</BATCHNAME>
+                <DESTINATIONGODOWNNAME>Main Location</DESTINATIONGODOWNNAME>
+                <AMOUNT>62500.00</AMOUNT>
+                <ACTUALQTY>50 Nos</ACTUALQTY>
+                <BILLEDQTY>50 Nos</BILLEDQTY>
+              </BATCHALLOCATIONS.LIST>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sales</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                <AMOUNT>62500.00</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Modular Switch Plate 8M</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <ACTUALQTY>120 Nos</ACTUALQTY>
+              <BILLEDQTY>120 Nos</BILLEDQTY>
+              <AMOUNT>22260.00</AMOUNT>
+              <RATE>185.50/Nos</RATE>
+              <BATCHALLOCATIONS.LIST>
+                <GODOWNNAME>Main Location</GODOWNNAME>
+                <BATCHNAME>Primary Batch</BATCHNAME>
+                <DESTINATIONGODOWNNAME>Main Location</DESTINATIONGODOWNNAME>
+                <AMOUNT>22260.00</AMOUNT>
+                <ACTUALQTY>120 Nos</ACTUALQTY>
+                <BILLEDQTY>120 Nos</BILLEDQTY>
+              </BATCHALLOCATIONS.LIST>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sales</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                <AMOUNT>22260.00</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Copper Wire 1.5 sq mm (90m coil)</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <ACTUALQTY>30 COIL</ACTUALQTY>
+              <BILLEDQTY>30 COIL</BILLEDQTY>
+              <AMOUNT>63000.00</AMOUNT>
+              <RATE>2100.00/COIL</RATE>
+              <BATCHALLOCATIONS.LIST>
+                <GODOWNNAME>Main Location</GODOWNNAME>
+                <BATCHNAME>Primary Batch</BATCHNAME>
+                <DESTINATIONGODOWNNAME>Main Location</DESTINATIONGODOWNNAME>
+                <AMOUNT>63000.00</AMOUNT>
+                <ACTUALQTY>30 COIL</ACTUALQTY>
+                <BILLEDQTY>30 COIL</BILLEDQTY>
+              </BATCHALLOCATIONS.LIST>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sales</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                <AMOUNT>63000.00</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>CGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>13298.40</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>SGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>13298.40</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Round Off</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>0.20</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <NARRATION>TEST DATA; Review in Tally; seller Sahyadri Electricals Pvt Ltd; seller GSTIN 27AABCS1234F1Z5; source F:\Downloads\new app\new\Sales Invoices (PDF)\01_intrastate_b2b_cgst_sgst.pdf; Seller GSTIN missing/invalid; retained for Tally review; igst missing/invalid; no numeric posting available (not an extracted zero); cess missing/invalid; no numeric posting available (not an extracted zero)</NARRATION>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER REMOTEID="8adef87d-a926-5816-bfcd-b173dda52822" VCHTYPE="Sales" ACTION="Create" OBJVIEW="Invoice Voucher View">
+            <DATE>20261012</DATE>
+            <EFFECTIVEDATE>20261012</EFFECTIVEDATE>
+            <GUID>8adef87d-a926-5816-bfcd-b173dda52822</GUID>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>TI-2627-0381</VOUCHERNUMBER>
+            <REFERENCE>TI-2627-0381</REFERENCE>
+            <PARTYLEDGERNAME>Navsari Retail Mart</PARTYLEDGERNAME>
+            <PARTYNAME>Navsari Retail Mart</PARTYNAME>
+            <BASICBUYERNAME>Navsari Retail Mart</BASICBUYERNAME>
+            <PERSISTEDVIEW>Invoice Voucher View</PERSISTEDVIEW>
+            <ISINVOICE>Yes</ISINVOICE>
+            <ISOPTIONAL>No</ISOPTIONAL>
+            <ISCANCELLED>No</ISCANCELLED>
+            <BASICBUYERADDRESS.LIST TYPE="String">
+              <BASICBUYERADDRESS>12 Station Rd, Navsari, Gujarat 396445</BASICBUYERADDRESS>
+            </BASICBUYERADDRESS.LIST>
+            <PARTYGSTIN>24AAHFN9087C1Z9</PARTYGSTIN>
+            <PLACEOFSUPPLY>Gujarat</PLACEOFSUPPLY>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Navsari Retail Mart</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-115421.00</AMOUNT>
+              <BILLALLOCATIONS.LIST>
+                <NAME>TI-2627-0381</NAME>
+                <BILLTYPE>New Ref</BILLTYPE>
+                <AMOUNT>-115421.00</AMOUNT>
+              </BILLALLOCATIONS.LIST>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Alphonso Mango Pulp 850g tin</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <ACTUALQTY>200 TIN</ACTUALQTY>
+              <BILLEDQTY>200 TIN</BILLEDQTY>
+              <AMOUNT>26980.00</AMOUNT>
+              <RATE>142.00/TIN</RATE>
+              <BATCHALLOCATIONS.LIST>
+                <GODOWNNAME>Main Location</GODOWNNAME>
+                <BATCHNAME>Primary Batch</BATCHNAME>
+                <DESTINATIONGODOWNNAME>Main Location</DESTINATIONGODOWNNAME>
+                <AMOUNT>26980.00</AMOUNT>
+                <ACTUALQTY>200 TIN</ACTUALQTY>
+                <BILLEDQTY>200 TIN</BILLEDQTY>
+              </BATCHALLOCATIONS.LIST>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sales</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                <AMOUNT>26980.00</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Cashew Kernels W320 (1kg pack)</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <ACTUALQTY>80 KG</ACTUALQTY>
+              <BILLEDQTY>80 KG</BILLEDQTY>
+              <AMOUNT>60840.00</AMOUNT>
+              <RATE>780.00/KG</RATE>
+              <BATCHALLOCATIONS.LIST>
+                <GODOWNNAME>Main Location</GODOWNNAME>
+                <BATCHNAME>Primary Batch</BATCHNAME>
+                <DESTINATIONGODOWNNAME>Main Location</DESTINATIONGODOWNNAME>
+                <AMOUNT>60840.00</AMOUNT>
+                <ACTUALQTY>80 KG</ACTUALQTY>
+                <BILLEDQTY>80 KG</BILLEDQTY>
+              </BATCHALLOCATIONS.LIST>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sales</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                <AMOUNT>60840.00</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Ready-to-eat Millet Mix 500g</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <ACTUALQTY>150 PKT</ACTUALQTY>
+              <BILLEDQTY>150 PKT</BILLEDQTY>
+              <AMOUNT>14460.00</AMOUNT>
+              <RATE>96.40/PKT</RATE>
+              <BATCHALLOCATIONS.LIST>
+                <GODOWNNAME>Main Location</GODOWNNAME>
+                <BATCHNAME>Primary Batch</BATCHNAME>
+                <DESTINATIONGODOWNNAME>Main Location</DESTINATIONGODOWNNAME>
+                <AMOUNT>14460.00</AMOUNT>
+                <ACTUALQTY>150 PKT</ACTUALQTY>
+                <BILLEDQTY>150 PKT</BILLEDQTY>
+              </BATCHALLOCATIONS.LIST>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sales</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                <AMOUNT>14460.00</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>IGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>13141.20</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Round Off</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-0.20</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <NARRATION>TEST DATA; Review in Tally; seller Konkan Agro Foods Pvt Ltd; seller GSTIN 27AAECK4321M1ZQ; source F:\Downloads\new app\new\Sales Invoices (PDF)\02_interstate_b2b_igst_discount.pdf; Seller GSTIN missing/invalid; retained for Tally review; cgst missing/invalid; no numeric posting available (not an extracted zero); sgst missing/invalid; no numeric posting available (not an extracted zero); cess missing/invalid; no numeric posting available (not an extracted zero); Item quantity/rate/value mismatch retained for Tally review</NARRATION>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER REMOTEID="374c5279-7cb4-511a-a9be-3ed33de7fb39" VCHTYPE="Sales" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20261018</DATE>
+            <EFFECTIVEDATE>20261018</EFFECTIVEDATE>
+            <GUID>374c5279-7cb4-511a-a9be-3ed33de7fb39</GUID>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>INV/0875</VOUCHERNUMBER>
+            <REFERENCE>INV/0875</REFERENCE>
+            <PARTYLEDGERNAME>Raheja Builders</PARTYLEDGERNAME>
+            <PARTYNAME>Raheja Builders</PARTYNAME>
+            <BASICBUYERNAME>Raheja Builders</BASICBUYERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <ISINVOICE>No</ISINVOICE>
+            <ISOPTIONAL>No</ISOPTIONAL>
+            <ISCANCELLED>No</ISCANCELLED>
+            <BASICBUYERADDRESS.LIST TYPE="String">
+              <BASICBUYERADDRESS>Raheja Tower, BKC, Mumbai 400051</BASICBUYERADDRESS>
+            </BASICBUYERADDRESS.LIST>
+            <PARTYGSTIN>27AAACR3344D1Z7</PARTYGSTIN>
+            <PLACEOFSUPPLY>Maharashtra (27)</PLACEOFSUPPLY>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Raheja Builders</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-329521.00</AMOUNT>
+              <BILLALLOCATIONS.LIST>
+                <NAME>INV/0875</NAME>
+                <BILLTYPE>New Ref</BILLTYPE>
+                <AMOUNT>-329521.00</AMOUNT>
+              </BILLALLOCATIONS.LIST>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Sales</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>269879.70</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>CGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>29820.43</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>SGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>29820.42</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Round Off</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>0.45</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <NARRATION>TEST DATA; Review in Tally; seller Mehta Hardware &amp; Distributors; seller GSTIN 27AAAFM7766Q1ZB; source F:\Downloads\new app\new\Sales Invoices (PDF)\03_intrastate_multi_slab_freight_roundoff.pdf; Seller GSTIN missing/invalid; retained for Tally review; igst missing/invalid; no numeric posting available (not an extracted zero); cess missing/invalid; no numeric posting available (not an extracted zero); Accounting voucher: item inventory not posted; all extracted items retained in manifest</NARRATION>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER REMOTEID="c95c8ca2-8ad9-5e93-bdd7-eff1638c6c80" VCHTYPE="Sales" ACTION="Create" OBJVIEW="Invoice Voucher View">
+            <DATE>20261022</DATE>
+            <EFFECTIVEDATE>20261022</EFFECTIVEDATE>
+            <GUID>c95c8ca2-8ad9-5e93-bdd7-eff1638c6c80</GUID>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>B2C/10-0099</VOUCHERNUMBER>
+            <REFERENCE>B2C/10-0099</REFERENCE>
+            <PARTYLEDGERNAME>Walk-in Customer (Cash)</PARTYLEDGERNAME>
+            <PARTYNAME>Walk-in Customer (Cash)</PARTYNAME>
+            <BASICBUYERNAME>Walk-in Customer (Cash)</BASICBUYERNAME>
+            <PERSISTEDVIEW>Invoice Voucher View</PERSISTEDVIEW>
+            <ISINVOICE>Yes</ISINVOICE>
+            <ISOPTIONAL>No</ISOPTIONAL>
+            <ISCANCELLED>No</ISCANCELLED>
+            <BASICBUYERADDRESS.LIST TYPE="String">
+              <BASICBUYERADDRESS>Mumbai</BASICBUYERADDRESS>
+            </BASICBUYERADDRESS.LIST>
+            <PLACEOFSUPPLY>Maharashtra</PLACEOFSUPPLY>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Walk-in Customer (Cash)</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-2916.00</AMOUNT>
+              <BILLALLOCATIONS.LIST>
+                <NAME>B2C/10-0099</NAME>
+                <BILLTYPE>New Ref</BILLTYPE>
+                <AMOUNT>-2916.00</AMOUNT>
+              </BILLALLOCATIONS.LIST>
+            </LEDGERENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Basmati Rice (Loose)</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <ACTUALQTY>12.5 KG</ACTUALQTY>
+              <BILLEDQTY>12.5 KG</BILLEDQTY>
+              <AMOUNT>1200.00</AMOUNT>
+              <RATE>96.00/KG</RATE>
+              <BATCHALLOCATIONS.LIST>
+                <GODOWNNAME>Main Location</GODOWNNAME>
+                <BATCHNAME>Primary Batch</BATCHNAME>
+                <DESTINATIONGODOWNNAME>Main Location</DESTINATIONGODOWNNAME>
+                <AMOUNT>1200.00</AMOUNT>
+                <ACTUALQTY>12.5 KG</ACTUALQTY>
+                <BILLEDQTY>12.5 KG</BILLEDQTY>
+              </BATCHALLOCATIONS.LIST>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sales</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                <AMOUNT>1200.00</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Sugar</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <ACTUALQTY>5.75 KG</ACTUALQTY>
+              <BILLEDQTY>5.75 KG</BILLEDQTY>
+              <AMOUNT>255.88</AMOUNT>
+              <RATE>44.50/KG</RATE>
+              <BATCHALLOCATIONS.LIST>
+                <GODOWNNAME>Main Location</GODOWNNAME>
+                <BATCHNAME>Primary Batch</BATCHNAME>
+                <DESTINATIONGODOWNNAME>Main Location</DESTINATIONGODOWNNAME>
+                <AMOUNT>255.88</AMOUNT>
+                <ACTUALQTY>5.75 KG</ACTUALQTY>
+                <BILLEDQTY>5.75 KG</BILLEDQTY>
+              </BATCHALLOCATIONS.LIST>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sales</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                <AMOUNT>255.88</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Refined Sunflower Oil 1L</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <ACTUALQTY>6 LTR</ACTUALQTY>
+              <BILLEDQTY>6 LTR</BILLEDQTY>
+              <AMOUNT>894.00</AMOUNT>
+              <RATE>149.00/LTR</RATE>
+              <BATCHALLOCATIONS.LIST>
+                <GODOWNNAME>Main Location</GODOWNNAME>
+                <BATCHNAME>Primary Batch</BATCHNAME>
+                <DESTINATIONGODOWNNAME>Main Location</DESTINATIONGODOWNNAME>
+                <AMOUNT>894.00</AMOUNT>
+                <ACTUALQTY>6 LTR</ACTUALQTY>
+                <BILLEDQTY>6 LTR</BILLEDQTY>
+              </BATCHALLOCATIONS.LIST>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sales</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                <AMOUNT>894.00</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <ALLINVENTORYENTRIES.LIST>
+              <STOCKITEMNAME>Toor Dal (Loose)</STOCKITEMNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <ACTUALQTY>3.25 KG</ACTUALQTY>
+              <BILLEDQTY>3.25 KG</BILLEDQTY>
+              <AMOUNT>448.50</AMOUNT>
+              <RATE>138.00/KG</RATE>
+              <BATCHALLOCATIONS.LIST>
+                <GODOWNNAME>Main Location</GODOWNNAME>
+                <BATCHNAME>Primary Batch</BATCHNAME>
+                <DESTINATIONGODOWNNAME>Main Location</DESTINATIONGODOWNNAME>
+                <AMOUNT>448.50</AMOUNT>
+                <ACTUALQTY>3.25 KG</ACTUALQTY>
+                <BILLEDQTY>3.25 KG</BILLEDQTY>
+              </BATCHALLOCATIONS.LIST>
+              <ACCOUNTINGALLOCATIONS.LIST>
+                <LEDGERNAME>Sales</LEDGERNAME>
+                <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                <AMOUNT>448.50</AMOUNT>
+              </ACCOUNTINGALLOCATIONS.LIST>
+            </ALLINVENTORYENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>CGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>58.75</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>SGST</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>58.74</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <LEDGERENTRIES.LIST>
+              <LEDGERNAME>Round Off</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>0.13</AMOUNT>
+            </LEDGERENTRIES.LIST>
+            <NARRATION>TEST DATA; Review in Tally; seller Gurukripa Kirana &amp; General Stores; seller GSTIN 27AAFPG2211B1ZK; source F:\Downloads\new app\new\Sales Invoices (PDF)\04_b2c_unregistered_decimal_qty.pdf; Seller GSTIN missing/invalid; retained for Tally review; igst missing/invalid; no numeric posting available (not an extracted zero); cess missing/invalid; no numeric posting available (not an extracted zero)</NARRATION>
+          </VOUCHER>
+        </TALLYMESSAGE>
+      </REQUESTDATA>
+    </IMPORTDATA>
+  </BODY>
+</ENVELOPE>

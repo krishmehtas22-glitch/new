@@ -1,0 +1,61 @@
+{
+  "parser_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665|4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945|True",
+  "reader_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665",
+  "source_sha256": "3918ada24da5c7e81865ecae528364136809cba0fa64cbec27f2a512f0c406da",
+  "text": "  SALES DOCUMENT\n  Western Trade Supplies\n  12 Industrial Estate, Fort, Mumbai, Maharashtra - 400001\n  GSTIN: 27DEMOA1000A1Z5\n\n      TAX INVOICE                                                                                                                                                                                                   TEST-26-27-271\n                                                                                                                                                                                                                             11/10/2026\n\n\n  Customer: Vadodara Packaging House\n  Buyer GSTIN: 24TESTP8400P1Z5\n  Buyer address: Vadodara Packaging House, Gujarat\n  Place of supply: Gujarat\n\n\n\n    Goods / Description                                                        HSN                       Qty             Unit              Rate                         Taxable                           GST %              GST Amt\n\n\n    Corrugated boxes                                                           481910                    126             PCS               65.00                        8,190.00                          12                 982.80\n\n\n    Bubble wrap rolls                                                          392010                    19              ROLL              525.00                       9,975.00                          18                 1,795.50\n\n\n    Self adhesive labels                                                       482110                    181             PCS               8.00                         1,448.00                          12                 173.76\n\n\n\n      Sales value excluding GST                                                                                                                                                                                                   19,613.00\n\n\n      Output CGST                                                                                                                                                                                                                            0.00\n\n\n      Output SGST                                                                                                                                                                                                                            0.00\n\n\n      Output IGST                                                                                                                                                                                                                    2,952.06\n\n\n      INVOICE TOTAL (INR)                                                                                                                                                                                                    22,565.06\n\n\n\n  Inter-state sale: IGST shown separately.\n\n  Declaration: This is a fictional sample document solely for automation testing.\n\n\n  For Western Trade Supplies\n\n\n  Authorised Signatory (sample)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTEST DATA ONLY - NOT FOR ACTUAL GST FILING                                                                                                                                                                   TEST-26-27-271 | Page 1",
+  "invoice": {
+    "seller_name": "Western Trade Supplies",
+    "seller_gstin": "27DEMOA1000A1Z5",
+    "buyer_name": "Vadodara Packaging House",
+    "buyer_gstin": "24TESTP8400P1Z5",
+    "place_of_supply": "Gujarat",
+    "total": "22,565.06",
+    "buyer_address": "Vadodara Packaging House, Gujarat",
+    "cgst": "0",
+    "sgst": "0",
+    "seller_name_source": "Printed seller masthead",
+    "items": [
+      {
+        "name": "Corrugated boxes",
+        "hsn": "481910",
+        "quantity": "126",
+        "unit": "PCS",
+        "rate": "65.00",
+        "value": "8,190.00",
+        "gst_rate": "12",
+        "tax_rates_printed": true,
+        "cgst_rate": "0",
+        "sgst_rate": "0",
+        "igst_rate": "12"
+      },
+      {
+        "name": "Bubble wrap rolls",
+        "hsn": "392010",
+        "quantity": "19",
+        "unit": "ROLL",
+        "rate": "525.00",
+        "value": "9,975.00",
+        "gst_rate": "18",
+        "tax_rates_printed": true,
+        "cgst_rate": "0",
+        "sgst_rate": "0",
+        "igst_rate": "18"
+      },
+      {
+        "name": "Self adhesive labels",
+        "hsn": "482110",
+        "quantity": "181",
+        "unit": "PCS",
+        "rate": "8.00",
+        "value": "1,448.00",
+        "gst_rate": "12",
+        "tax_rates_printed": true,
+        "cgst_rate": "0",
+        "sgst_rate": "0",
+        "igst_rate": "12"
+      }
+    ],
+    "source_layout": "flexible_roles_v1",
+    "extraction_warnings": []
+  }
+}

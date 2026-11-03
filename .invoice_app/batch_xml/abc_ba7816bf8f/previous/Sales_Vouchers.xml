@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ENVELOPE>
+  <HEADER>
+    <TALLYREQUEST>Import Data</TALLYREQUEST>
+  </HEADER>
+  <BODY>
+    <IMPORTDATA>
+      <REQUESTDESC>
+        <REPORTNAME>Vouchers</REPORTNAME>
+        <STATICVARIABLES />
+      </REQUESTDESC>
+      <REQUESTDATA>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER REMOTEID="6c36fc6f-1c18-5b75-b2a9-9ab816b98627" VCHTYPE="Sales" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE />
+            <EFFECTIVEDATE />
+            <GUID>6c36fc6f-1c18-5b75-b2a9-9ab816b98627</GUID>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>UNREAD-3918ada24da5</VOUCHERNUMBER>
+            <REFERENCE>UNREAD-3918ada24da5</REFERENCE>
+            <PARTYLEDGERNAME>Vadodara Packaging House</PARTYLEDGERNAME>
+            <PARTYNAME>Vadodara Packaging House</PARTYNAME>
+            <BASICBUYERNAME>Vadodara Packaging House</BASICBUYERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <ISINVOICE>No</ISINVOICE>
+            <ISOPTIONAL>No</ISOPTIONAL>
+            <ISCANCELLED>No</ISCANCELLED>
+            <BASICBUYERADDRESS.LIST TYPE="String">
+              <BASICBUYERADDRESS>Vadodara Packaging House, Gujarat</BASICBUYERADDRESS>
+            </BASICBUYERADDRESS.LIST>
+            <PARTYGSTIN>24TESTP8400P1Z5</PARTYGSTIN>
+            <PLACEOFSUPPLY>Gujarat</PLACEOFSUPPLY>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Vadodara Packaging House</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-22565.06</AMOUNT>
+              <BILLALLOCATIONS.LIST>
+                <NAME>UNREAD-3918ada24da5</NAME>
+                <BILLTYPE>New Ref</BILLTYPE>
+                <AMOUNT>-22565.06</AMOUNT>
+              </BILLALLOCATIONS.LIST>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Sales</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>19613.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Invoice differences - review</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>2952.06</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <NARRATION>TEST DATA; Review in Tally; seller Western Trade Supplies; seller GSTIN 27DEMOA1000A1Z5; source F:\Downloads\new app\abc\Sales Invoices (PDF)\TEST-26-27-271_INTER_Layout-5.pdf; AI-first extraction was not completed for this PDF; Python/saved data retained for review. Status: local fallback; Invoice number missing; explicit UNREAD reference used; Seller GSTIN missing/invalid; retained for Tally review; igst missing/invalid; no numeric posting available (not an extracted zero); cess missing/invalid; no numeric posting available (not an extracted zero); round_off missing/invalid; no numeric posting available (not an extracted zero); Taxable amount derived from available amounts; see retained extraction; Accounting voucher: item inventory not posted; all extracted items retained in manifest; Date missing/invalid; no verified source date could be recovered; Tally may reject this voucher; Unreconciled difference 2952.06 posted to Invoice differences - review; printed amounts retained</NARRATION>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER REMOTEID="26761c09-f2be-5b64-822a-8fd9321df310" VCHTYPE="Sales" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE />
+            <EFFECTIVEDATE />
+            <GUID>26761c09-f2be-5b64-822a-8fd9321df310</GUID>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>UNREAD-9c520042fa9f</VOUCHERNUMBER>
+            <REFERENCE>UNREAD-9c520042fa9f</REFERENCE>
+            <PARTYLEDGERNAME>Buyer unresolved - 9c520042fa</PARTYLEDGERNAME>
+            <PARTYNAME>Buyer unresolved - 9c520042fa</PARTYNAME>
+            <BASICBUYERNAME>Buyer unresolved - 9c520042fa</BASICBUYERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <ISINVOICE>No</ISINVOICE>
+            <ISOPTIONAL>No</ISOPTIONAL>
+            <ISCANCELLED>No</ISCANCELLED>
+            <PARTYGSTIN>27TESTQ8500Q1Z5</PARTYGSTIN>
+            <PLACEOFSUPPLY>Maharashtra</PLACEOFSUPPLY>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Buyer unresolved - 9c520042fa</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-22598.10</AMOUNT>
+              <BILLALLOCATIONS.LIST>
+                <NAME>UNREAD-9c520042fa9f</NAME>
+                <BILLTYPE>New Ref</BILLTYPE>
+                <AMOUNT>-22598.10</AMOUNT>
+              </BILLALLOCATIONS.LIST>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Sales</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>19635.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Invoice differences - review</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>2963.10</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <NARRATION>TEST DATA; Review in Tally; seller Western Trade Supplies; seller GSTIN 27DEMOA1000A1Z5; source F:\Downloads\new app\abc\Sales Invoices (PDF)\TEST-26-27-272_INTRA_Layout-1.pdf; Ambiguous buyer_name: label and layout values differ; AI-first extraction was not completed for this PDF; Python/saved data retained for review. Status: not_selected_for_new_ai; Invoice number missing; explicit UNREAD reference used; Seller GSTIN missing/invalid; retained for Tally review; cgst missing/invalid; no numeric posting available (not an extracted zero); sgst missing/invalid; no numeric posting available (not an extracted zero); cess missing/invalid; no numeric posting available (not an extracted zero); round_off missing/invalid; no numeric posting available (not an extracted zero); Taxable amount derived from available amounts; see retained extraction; Accounting voucher: item inventory not posted; all extracted items retained in manifest; Date missing/invalid; no verified source date could be recovered; Tally may reject this voucher; Unreconciled difference 2963.10 posted to Invoice differences - review; printed amounts retained</NARRATION>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER REMOTEID="24c73316-c003-5487-aa6a-462b64cca372" VCHTYPE="Sales" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20261013</DATE>
+            <EFFECTIVEDATE>20261013</EFFECTIVEDATE>
+            <GUID>24c73316-c003-5487-aa6a-462b64cca372</GUID>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>UNREAD-689af3d6c34e</VOUCHERNUMBER>
+            <REFERENCE>UNREAD-689af3d6c34e</REFERENCE>
+            <PARTYLEDGERNAME>Buyer unresolved - 689af3d6c3</PARTYLEDGERNAME>
+            <PARTYNAME>Buyer unresolved - 689af3d6c3</PARTYNAME>
+            <BASICBUYERNAME>Buyer unresolved - 689af3d6c3</BASICBUYERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <ISINVOICE>No</ISINVOICE>
+            <ISOPTIONAL>No</ISOPTIONAL>
+            <ISCANCELLED>No</ISCANCELLED>
+            <PLACEOFSUPPLY>Outside India</PLACEOFSUPPLY>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Buyer unresolved - 689af3d6c3</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-63800.00</AMOUNT>
+              <BILLALLOCATIONS.LIST>
+                <NAME>UNREAD-689af3d6c34e</NAME>
+                <BILLTYPE>New Ref</BILLTYPE>
+                <AMOUNT>-63800.00</AMOUNT>
+              </BILLALLOCATIONS.LIST>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Sales</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>63800.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <NARRATION>TEST DATA; Review in Tally; seller Western Trade Supplies; seller GSTIN ; source F:\Downloads\new app\abc\Sales Invoices (PDF)\TEST-26-27-273_EXPORT_Layout-2.pdf; Ambiguous buyer_name: label and layout values differ; Ambiguous buyer_gstin: label and layout values differ; AI-first extraction was not completed for this PDF; Python/saved data retained for review. Status: not_selected_for_new_ai; Invoice date recovered from verified source PDF/local extraction, not a due date; Invoice number missing; explicit UNREAD reference used; Seller GSTIN missing/invalid; retained for Tally review; cess missing/invalid; no numeric posting available (not an extracted zero); round_off missing/invalid; no numeric posting available (not an extracted zero); Taxable amount derived from available amounts; see retained extraction; Accounting voucher: item inventory not posted; all extracted items retained in manifest</NARRATION>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER REMOTEID="b6c01422-f347-5954-ae6f-1fb9a814af6c" VCHTYPE="Sales" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20261014</DATE>
+            <EFFECTIVEDATE>20261014</EFFECTIVEDATE>
+            <GUID>b6c01422-f347-5954-ae6f-1fb9a814af6c</GUID>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>TEST-26-27-274</VOUCHERNUMBER>
+            <REFERENCE>TEST-26-27-274</REFERENCE>
+            <PARTYLEDGERNAME>Coimbatore Storage Mart</PARTYLEDGERNAME>
+            <PARTYNAME>Coimbatore Storage Mart</PARTYNAME>
+            <BASICBUYERNAME>Coimbatore Storage Mart</BASICBUYERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <ISINVOICE>No</ISINVOICE>
+            <ISOPTIONAL>No</ISOPTIONAL>
+            <ISCANCELLED>No</ISCANCELLED>
+            <BASICBUYERADDRESS.LIST TYPE="String">
+              <BASICBUYERADDRESS>Coimbatore Storage Mart, Tamil Nadu</BASICBUYERADDRESS>
+            </BASICBUYERADDRESS.LIST>
+            <PARTYGSTIN>33TESTR8600R1Z5</PARTYGSTIN>
+            <PLACEOFSUPPLY>Tamil Nadu</PLACEOFSUPPLY>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Coimbatore Storage Mart</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-77679.40</AMOUNT>
+              <BILLALLOCATIONS.LIST>
+                <NAME>TEST-26-27-274</NAME>
+                <BILLTYPE>New Ref</BILLTYPE>
+                <AMOUNT>-77679.40</AMOUNT>
+              </BILLALLOCATIONS.LIST>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Sales</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>65830.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Invoice differences - review</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>11849.40</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <NARRATION>TEST DATA; Review in Tally; seller Western Trade Supplies; seller GSTIN 27DEMOA1000A1Z5; source F:\Downloads\new app\abc\Sales Invoices (PDF)\TEST-26-27-274_INTER_Layout-3.pdf; AI-first extraction was not completed for this PDF; Python/saved data retained for review. Status: not_selected_for_new_ai; Invoice date recovered from verified source PDF/local extraction, not a due date; Seller GSTIN missing/invalid; retained for Tally review; igst missing/invalid; no numeric posting available (not an extracted zero); cess missing/invalid; no numeric posting available (not an extracted zero); round_off missing/invalid; no numeric posting available (not an extracted zero); Taxable amount derived from available amounts; see retained extraction; Accounting voucher: item inventory not posted; all extracted items retained in manifest; Unreconciled difference 11849.40 posted to Invoice differences - review; printed amounts retained</NARRATION>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER REMOTEID="d3ca3d5c-8fd0-5b2e-92e6-d800fcdfe0d8" VCHTYPE="Sales" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20261015</DATE>
+            <EFFECTIVEDATE>20261015</EFFECTIVEDATE>
+            <GUID>d3ca3d5c-8fd0-5b2e-92e6-d800fcdfe0d8</GUID>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>UNREAD-b625089dc8d6</VOUCHERNUMBER>
+            <REFERENCE>UNREAD-b625089dc8d6</REFERENCE>
+            <PARTYLEDGERNAME>Buyer unresolved - b625089dc8</PARTYLEDGERNAME>
+            <PARTYNAME>Buyer unresolved - b625089dc8</PARTYNAME>
+            <BASICBUYERNAME>Buyer unresolved - b625089dc8</BASICBUYERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <ISINVOICE>No</ISINVOICE>
+            <ISOPTIONAL>No</ISOPTIONAL>
+            <ISCANCELLED>No</ISCANCELLED>
+            <PARTYGSTIN>27TESTS8700S1Z5</PARTYGSTIN>
+            <PLACEOFSUPPLY>Maharashtra</PLACEOFSUPPLY>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Buyer unresolved - b625089dc8</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-16935.00</AMOUNT>
+              <BILLALLOCATIONS.LIST>
+                <NAME>UNREAD-b625089dc8d6</NAME>
+                <BILLTYPE>New Ref</BILLTYPE>
+                <AMOUNT>-16935.00</AMOUNT>
+              </BILLALLOCATIONS.LIST>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Sales</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>16935.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <NARRATION>TEST DATA; Review in Tally; seller Western Trade Supplies; seller GSTIN ; source F:\Downloads\new app\abc\Sales Invoices (PDF)\TEST-26-27-275_EXEMPT_Layout-4.pdf; Ambiguous buyer_name: label and layout values differ; Item GST split needs seller state and place of supply review; AI-first extraction was not completed for this PDF; Python/saved data retained for review. Status: not_selected_for_new_ai; Invoice number missing; explicit UNREAD reference used; Seller GSTIN missing/invalid; retained for Tally review; cgst missing/invalid; no numeric posting available (not an extracted zero); sgst missing/invalid; no numeric posting available (not an extracted zero); igst missing/invalid; no numeric posting available (not an extracted zero); cess missing/invalid; no numeric posting available (not an extracted zero); round_off missing/invalid; no numeric posting available (not an extracted zero); Taxable amount derived from available amounts; see retained extraction; Accounting voucher: item inventory not posted; all extracted items retained in manifest</NARRATION>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER REMOTEID="50ced9b5-1c07-5252-b4c8-215cd37bceab" VCHTYPE="Sales" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE />
+            <EFFECTIVEDATE />
+            <GUID>50ced9b5-1c07-5252-b4c8-215cd37bceab</GUID>
+            <VOUCHERTYPENAME>Sales</VOUCHERTYPENAME>
+            <VOUCHERNUMBER>UNREAD-09936af453e7</VOUCHERNUMBER>
+            <REFERENCE>UNREAD-09936af453e7</REFERENCE>
+            <PARTYLEDGERNAME>Nagpur Packaging Depot</PARTYLEDGERNAME>
+            <PARTYNAME>Nagpur Packaging Depot</PARTYNAME>
+            <BASICBUYERNAME>Nagpur Packaging Depot</BASICBUYERNAME>
+            <PERSISTEDVIEW>Accounting Voucher View</PERSISTEDVIEW>
+            <ISINVOICE>No</ISINVOICE>
+            <ISOPTIONAL>No</ISOPTIONAL>
+            <ISCANCELLED>No</ISCANCELLED>
+            <BASICBUYERADDRESS.LIST TYPE="String">
+              <BASICBUYERADDRESS>Nagpur Packaging Depot, Maharashtra</BASICBUYERADDRESS>
+            </BASICBUYERADDRESS.LIST>
+            <PARTYGSTIN>27TESTT8800T1Z5</PARTYGSTIN>
+            <PLACEOFSUPPLY>Maharashtra</PLACEOFSUPPLY>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Nagpur Packaging Depot</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>-23678.00</AMOUNT>
+              <BILLALLOCATIONS.LIST>
+                <NAME>UNREAD-09936af453e7</NAME>
+                <BILLTYPE>New Ref</BILLTYPE>
+                <AMOUNT>-23678.00</AMOUNT>
+              </BILLALLOCATIONS.LIST>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Sales</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>20630.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Invoice differences - review</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+              <AMOUNT>3048.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <NARRATION>TEST DATA; Review in Tally; seller Western Trade Supplies; seller GSTIN 27DEMOA1000A1Z5; source F:\Downloads\new app\abc\Sales Invoices (PDF)\TEST-26-27-276_INTRA_Layout-5.pdf; AI-first extraction was not completed for this PDF; Python/saved data retained for review. Status: not_selected_for_new_ai; Invoice number missing; explicit UNREAD reference used; Seller GSTIN missing/invalid; retained for Tally review; cgst missing/invalid; no numeric posting available (not an extracted zero); sgst missing/invalid; no numeric posting available (not an extracted zero); cess missing/invalid; no numeric posting available (not an extracted zero); round_off missing/invalid; no numeric posting available (not an extracted zero); Taxable amount derived from available amounts; see retained extraction; Accounting voucher: item inventory not posted; all extracted items retained in manifest; Date missing/invalid; no verified source date could be recovered; Tally may reject this voucher; Unreconciled difference 3048.00 posted to Invoice differences - review; printed amounts retained</NARRATION>
+          </VOUCHER>
+        </TALLYMESSAGE>
+      </REQUESTDATA>
+    </IMPORTDATA>
+  </BODY>
+</ENVELOPE>

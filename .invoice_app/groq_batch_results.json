@@ -1,0 +1,12 @@
+{
+  "provider": "Groq",
+  "results": [
+    {
+      "client": "abx",
+      "path": "F:\\Downloads\\new app\\abx\\Sales Invoices (PDF)\\H02_cess_28pct_hsn_summary_lakh_format.pdf",
+      "digest": "493104488b44d22ac2a3d62f53e3c6fb1af01ccf11ea92c06e5233be57f8c76c",
+      "status": "failed",
+      "error": "Model openai/gpt-oss-120b — Groq HTTP 413: Request too large for model `openai/gpt-oss-120b` in organization `org_01m5br4sf8e9rvj3twaec7whnk` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8434, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"
+    }
+  ]
+}

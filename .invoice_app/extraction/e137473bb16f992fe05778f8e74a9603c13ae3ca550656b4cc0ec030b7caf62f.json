@@ -1,0 +1,72 @@
+{
+  "parser_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665|4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945|True",
+  "reader_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665",
+  "source_sha256": "e137473bb16f992fe05778f8e74a9603c13ae3ca550656b4cc0ec030b7caf62f",
+  "text": "                                                                  TAX INVOICE\n\nGurukripa Kirana & General Stores\nShop 21, Dadar Market, Dadar West, Mumbai 400028\nGSTIN: 27AAFPG2211B1ZK | State: Maharashtra (27)\n\nInvoice No: B2C/10-0099                                                         Bill To:\nDate: 22-Oct-2026                                                               Walk-in Customer (Cash)\nPlace of Supply: Maharashtra (27)                                               Mumbai\n                                                                                GSTIN: Unregistered / B2C\n\n #     Description                                       HSN/SAC           Qty      UOM            Rate    Disc%      Taxable Value     GST%          GST Amt\n\n 1     Basmati Rice (Loose)                              10063020         12.5        KG          96.00          0           1200.00        5%            60.00\n\n 2     Sugar                                             17019990         5.75        KG          44.50          0            255.88        5%            12.79\n\n 3     Refined Sunflower Oil 1L                          15121910             6      LTR         149.00          0            894.00        5%            44.70\n\n 4     Toor Dal (Loose)                                  07136000         3.25        KG         138.00          0            448.50        0%              0.00\n\n                                                                                                 Total Taxable Value                                  2798.38\n\n                                                                                                 CGST                                                    58.75\n\n                                                                                                 SGST/UTGST                                              58.74\n\n                                                                                                 Round Off                                                 0.13\n\n                                                                                                 Invoice Total (INR)                                  2916.00\n\nAmount in words: Rupees Two Thousand Nine Hundred Sixteen Only\n\n GST%                            Taxable                         Tax\n\n 0%                                448.50                       0.00\n\n 5%                              2349.88                     117.49\n\nThank you. Visit again.\n\n\nFor Gurukripa Kirana & General Stores\n\nAuthorised Signatory",
+  "invoice": {
+    "number": "B2C/10-0099",
+    "date": "22-Oct-2026                                                               Walk-in Customer (Cash)",
+    "seller_name": "Gurukripa Kirana & General Stores",
+    "seller_gstin": "27AAFPG2211B1ZK",
+    "buyer_name": "Date: 22-Oct-2026                                                               Walk-in Customer (Cash)",
+    "place_of_supply": "Maharashtra (27)                                               Mumbai",
+    "classification": "taxable",
+    "total": "2916.00",
+    "round_off": "0.13",
+    "cgst": "58.75",
+    "seller_name_source": "Printed matching signatory",
+    "items": [
+      {
+        "name": "Basmati Rice (Loose)",
+        "hsn": "10063020",
+        "quantity": "12.5",
+        "unit": "KG",
+        "rate": "96.00",
+        "value": "1200.00",
+        "gst_rate": "5",
+        "printed_gst_rate": "5%",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "Sugar",
+        "hsn": "17019990",
+        "quantity": "5.75",
+        "unit": "KG",
+        "rate": "44.50",
+        "value": "255.88",
+        "gst_rate": "5",
+        "printed_gst_rate": "5%",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "Refined Sunflower Oil 1L",
+        "hsn": "15121910",
+        "quantity": "6",
+        "unit": "LTR",
+        "rate": "149.00",
+        "value": "894.00",
+        "gst_rate": "5",
+        "printed_gst_rate": "5%",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "Toor Dal (Loose)",
+        "hsn": "07136000",
+        "quantity": "3.25",
+        "unit": "KG",
+        "rate": "138.00",
+        "value": "448.50",
+        "gst_rate": "0",
+        "printed_gst_rate": "0%",
+        "tax_rates_printed": true
+      }
+    ],
+    "source_layout": "flexible_roles_v1",
+    "extraction_warnings": [
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ui_version": "BillSync UI 2.0",
+  "ui_initialized": true,
+  "drag_drop_available": true,
+  "version": "Reader 7.30",
+  "frozen": true,
+  "data_root": "D:\\a\\gst-1\\gst-1\\Automation\\dist\\InvoiceReader",
+  "parser_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665",
+  "ocr_initialized": true,
+  "providers": [
+    "GitHub Models",
+    "Groq",
+    "Gemini",
+    "OpenRouter"
+  ]
+}

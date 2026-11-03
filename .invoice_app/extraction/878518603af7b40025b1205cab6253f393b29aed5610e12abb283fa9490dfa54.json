@@ -1,0 +1,96 @@
+{
+  "parser_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665|4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945|True",
+  "reader_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665",
+  "source_sha256": "878518603af7b40025b1205cab6253f393b29aed5610e12abb283fa9490dfa54",
+  "text": "                                                                TAX INVOICE\n\nMehta Hardware & Distributors\nShop 3, Lohar Chawl, Mumbai 400002\nGSTIN: 27AAAFM7766Q1ZB | State: Maharashtra (27)\n\nInvoice No: INV/0875                                                          Bill To:\nDate: 18-Oct-2026                                                             Raheja Builders\nPlace of Supply: Maharashtra (27)                                             Raheja Tower, BKC, Mumbai 400051\n                                                                              GSTIN: 27AAACR3344D1Z7\n\n #     Description                                      HSN/SAC          Qty      UOM           Rate    Disc%      Taxable Value     GST%         GST Amt\n\n 1     Portland Cement PPC 50kg                         25232930         300      BAG         368.75          0        110625.00       28%        30975.00\n\n 2     TMT Steel Bar 12mm                               72142090        2.45        MT     58400.00           1        141649.20       18%        25496.86\n\n 3     Safety Helmet ISI                                65061010           40     NOS         215.30          0          8612.00       18%          1550.16\n\n 4     PVC Conduit Pipe 25mm                            39172390           90     MTR          42.15          0          3793.50       18%           682.83\n\n 5     Packaged Drinking Water 20L                      22011010           25      JAR         68.00          0          1700.00       18%           306.00\n\n 6     Freight & Loading Charges                        996511              1        LS      3500.00          0          3500.00       18%           630.00\n\n                                                                                              Total Taxable Value                               269879.70\n\n                                                                                              CGST                                               29820.43\n\n                                                                                              SGST/UTGST                                         29820.42\n\n                                                                                              Round Off                                                0.45\n\n                                                                                              Invoice Total (INR)                               329521.00\n\nAmount in words: Rupees Three Lakh Twenty Nine Thousand Five Hundred Twenty One Only\n\n GST%                           Taxable                        Tax\n\n 18%                          159254.70                  28665.85\n\n 28%                          110625.00                  30975.00\n\nInterest @18% p.a. on overdue payments.\n\n\nFor Mehta Hardware & Distributors\n\nAuthorised Signatory",
+  "invoice": {
+    "number": "INV/0875",
+    "date": "18-Oct-2026                                                             Raheja Builders",
+    "seller_name": "Mehta Hardware & Distributors",
+    "seller_gstin": "27AAAFM7766Q1ZB",
+    "buyer_name": "Date: 18-Oct-2026                                                             Raheja Builders",
+    "place_of_supply": "Maharashtra (27)                                             Raheja Tower, BKC, Mumbai 400051",
+    "classification": "taxable",
+    "total": "329521.00",
+    "round_off": "0.45",
+    "cgst": "29820.43",
+    "seller_name_source": "Printed seller masthead",
+    "items": [
+      {
+        "name": "Portland Cement PPC 50kg",
+        "hsn": "25232930",
+        "quantity": "300",
+        "unit": "BAG",
+        "rate": "368.75",
+        "value": "110625.00",
+        "gst_rate": "28",
+        "printed_gst_rate": "28%",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "TMT Steel Bar 12mm",
+        "hsn": "72142090",
+        "quantity": "2.45",
+        "unit": "MT",
+        "rate": "58400.00",
+        "value": "141649.20",
+        "gst_rate": "18",
+        "printed_gst_rate": "18%",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "Safety Helmet ISI",
+        "hsn": "65061010",
+        "quantity": "40",
+        "unit": "NOS",
+        "rate": "215.30",
+        "value": "8612.00",
+        "gst_rate": "18",
+        "printed_gst_rate": "18%",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "PVC Conduit Pipe 25mm",
+        "hsn": "39172390",
+        "quantity": "90",
+        "unit": "MTR",
+        "rate": "42.15",
+        "value": "3793.50",
+        "gst_rate": "18",
+        "printed_gst_rate": "18%",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "Packaged Drinking Water 20L",
+        "hsn": "22011010",
+        "quantity": "25",
+        "unit": "JAR",
+        "rate": "68.00",
+        "value": "1700.00",
+        "gst_rate": "18",
+        "printed_gst_rate": "18%",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "Freight & Loading Charges",
+        "hsn": "996511",
+        "quantity": "1",
+        "unit": "LS",
+        "rate": "3500.00",
+        "value": "3500.00",
+        "gst_rate": "18",
+        "printed_gst_rate": "18%",
+        "tax_rates_printed": true
+      }
+    ],
+    "source_layout": "flexible_roles_v1",
+    "extraction_warnings": [
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review"
+    ]
+  }
+}

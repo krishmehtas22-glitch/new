@@ -1,0 +1,35 @@
+{
+  "source_sha256": "09936af453e728c64ac0d1602e6cb6e90d8e6ee716196974ab4cb86cef0b6be8",
+  "items": {
+    "0": {
+      "signature": "14550533f14b913b72cea4a19b698b971b6b5bb7ab888c9a574adc71b319559c",
+      "unit_data": {
+        "unit": "PCS",
+        "unit_origin": "printed",
+        "unit_auto": false,
+        "unit_confidence": 1.0,
+        "unit_evidence": "Printed unit: PCS"
+      }
+    },
+    "1": {
+      "signature": "3b5258c54c3d64a725ed373d5e02f034d3709d08f7919fbfdebd2417acdce493",
+      "unit_data": {
+        "unit": "ROLL",
+        "unit_origin": "printed",
+        "unit_auto": false,
+        "unit_confidence": 1.0,
+        "unit_evidence": "Printed unit: ROLL"
+      }
+    },
+    "2": {
+      "signature": "6abbaf0e114fda983ad742395c29ec99af81f4b6cdaff1d462969ec5946debc4",
+      "unit_data": {
+        "unit": "PCS",
+        "unit_origin": "printed",
+        "unit_auto": false,
+        "unit_confidence": 1.0,
+        "unit_evidence": "Printed unit: PCS"
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ENVELOPE>
+  <HEADER>
+    <TALLYREQUEST>Import Data</TALLYREQUEST>
+  </HEADER>
+  <BODY>
+    <IMPORTDATA>
+      <REQUESTDESC>
+        <REPORTNAME>All Masters</REPORTNAME>
+        <STATICVARIABLES />
+      </REQUESTDESC>
+      <REQUESTDATA>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <UNIT Action="Create">
+            <NAME>BOX</NAME>
+            <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+            <ORIGINALNAME>Boxes</ORIGINALNAME>
+            <DECIMALPLACES>0</DECIMALPLACES>
+            <GSTREPUOM>BOX-BOX</GSTREPUOM>
+          </UNIT>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <UNIT Action="Create">
+            <NAME>REAM</NAME>
+            <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+            <ORIGINALNAME>Paper ream</ORIGINALNAME>
+            <DECIMALPLACES>0</DECIMALPLACES>
+            <GSTREPUOM>RIM-REAMS</GSTREPUOM>
+          </UNIT>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <UNIT Action="Create">
+            <NAME>Nos</NAME>
+            <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+            <ORIGINALNAME>Number</ORIGINALNAME>
+            <DECIMALPLACES>0</DECIMALPLACES>
+            <GSTREPUOM>NOS-NUMBERS</GSTREPUOM>
+          </UNIT>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <UNIT Action="Create">
+            <NAME>PKT</NAME>
+            <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+            <ORIGINALNAME>Packets</ORIGINALNAME>
+            <DECIMALPLACES>0</DECIMALPLACES>
+            <GSTREPUOM>PAC-PACKS</GSTREPUOM>
+          </UNIT>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <UNIT Action="Create">
+            <NAME>ROLL</NAME>
+            <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+            <ORIGINALNAME>Material roll</ORIGINALNAME>
+            <DECIMALPLACES>0</DECIMALPLACES>
+            <GSTREPUOM>ROL-ROLLS</GSTREPUOM>
+          </UNIT>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <UNIT Action="Create">
+            <NAME>BTL</NAME>
+            <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+            <ORIGINALNAME>Bottle</ORIGINALNAME>
+            <DECIMALPLACES>0</DECIMALPLACES>
+            <GSTREPUOM>BTL-BOTTLES</GSTREPUOM>
+          </UNIT>
+        </TALLYMESSAGE>
+      </REQUESTDATA>
+    </IMPORTDATA>
+  </BODY>
+</ENVELOPE>

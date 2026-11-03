@@ -1,0 +1,60 @@
+{
+  "parser_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665|4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945|True",
+  "reader_revision": "329f84158831d8bc94eb863610e6cdf416ca0bd5f7d2a41ce15a41708a8ca665",
+  "source_sha256": "7f57cf028adb90ae06a15064d773b98bec1aa7d195264f1e4f359b1c1a4d3004",
+  "text": "                                                                  TAX INVOICE\n\nKonkan Agro Foods Pvt Ltd\nGala 7, APMC Market, Vashi, Navi Mumbai 400703\nGSTIN: 27AAECK4321M1ZQ | State: Maharashtra (27)\n\nInvoice No: TI-2627-0381                                                        Bill To:\nDate: 12-Oct-2026                                                               Navsari Retail Mart\nPlace of Supply: Gujarat (24)                                                   12 Station Rd, Navsari, Gujarat 396445\nVehicle No: MH04 AB 7788                                                        GSTIN: 24AAHFN9087C1Z9\n\n #     Description                                       HSN/SAC            Qty     UOM            Rate    Disc%      Taxable Value      GST%          GST Amt\n\n 1     Alphonso Mango Pulp 850g tin                      20089910          200        TIN        142.00          5          26980.00       12%          3237.60\n\n 2     Cashew Kernels W320 (1kg pack)                    08013220            80        KG        780.00        2.5          60840.00       12%          7300.80\n\n 3     Ready-to-eat Millet Mix 500g                      19049000          150       PKT          96.40          0          14460.00       18%          2602.80\n\n                                                                                                 Total Taxable Value                                102280.00\n\n                                                                                                 IGST                                                13141.20\n\n                                                                                                 Round Off                                                -0.20\n\n                                                                                                 Invoice Total (INR)                                115421.00\n\nAmount in words: Rupees One Lakh Fifteen Thousand Four Hundred Twenty One Only\n\n GST%                            Taxable                         Tax\n\n 12%                            87820.00                   10538.40\n\n 18%                            14460.00                    2602.80\n\nGoods once sold will not be taken back.\n\n\nFor Konkan Agro Foods Pvt Ltd\n\nAuthorised Signatory",
+  "invoice": {
+    "number": "TI-2627-0381",
+    "date": "12-Oct-2026                                                               Navsari Retail Mart",
+    "seller_name": "Konkan Agro Foods Pvt Ltd",
+    "seller_gstin": "27AAECK4321M1ZQ",
+    "buyer_name": "Date: 12-Oct-2026                                                               Navsari Retail Mart",
+    "place_of_supply": "Gujarat (24)                                                   12 Station Rd, Navsari, Gujarat 396445",
+    "classification": "taxable",
+    "total": "115421.00",
+    "round_off": "-0.20",
+    "igst": "13141.20",
+    "seller_name_source": "Printed seller masthead",
+    "items": [
+      {
+        "name": "Alphonso Mango Pulp 850g tin",
+        "hsn": "20089910",
+        "quantity": "200",
+        "unit": "TIN",
+        "rate": "142.00",
+        "value": "26980.00",
+        "gst_rate": "12",
+        "printed_gst_rate": "12%",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "Cashew Kernels W320 (1kg pack)",
+        "hsn": "08013220",
+        "quantity": "80",
+        "unit": "KG",
+        "rate": "780.00",
+        "value": "60840.00",
+        "gst_rate": "12",
+        "printed_gst_rate": "12%",
+        "tax_rates_printed": true
+      },
+      {
+        "name": "Ready-to-eat Millet Mix 500g",
+        "hsn": "19049000",
+        "quantity": "150",
+        "unit": "PKT",
+        "rate": "96.40",
+        "value": "14460.00",
+        "gst_rate": "18",
+        "printed_gst_rate": "18%",
+        "tax_rates_printed": true
+      }
+    ],
+    "source_layout": "flexible_roles_v1",
+    "extraction_warnings": [
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review",
+      "Item GST split needs seller state and place of supply review"
+    ]
+  }
+}
